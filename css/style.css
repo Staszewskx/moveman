@@ -730,7 +730,7 @@ Style 1
 	letter-spacing: 4px
 } 
 
-@media (max-width: 600px) {
+@media (max-width: 770px) {
   .home-intro-left .intro-wrap h1 {
     font-size: 30px; 
   }
