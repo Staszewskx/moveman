@@ -1,0 +1,128 @@
+            </header><section id="home" class="home-wrap home-msg">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row">
+                            <!--HOME LEFT START-->
+                            <div class="col-md-1">
+                                <div class="home-intro-left">
+									
+                                    <div class="logo"><img src="images/logo.png" alt=""></div>
+                                    <div class="intro-wrap">
+                                        <!--Header text -->
+ <div class="heading wow fadeInUp" data-wow-offset="120" data-wow-duration="1.5s">
+                                        <h1>Emil Strumiñski<br></h1>
+                                        <h4>Trener personalny</h4>
+										</div>
+                                    </div>
+                                </div>
+                            </div><!--HOME LEFT END-->
+
+
+
+
+                         	<div id="bg">
+								<div class="home-wrap home-msg">
+									<ul id="scene">
+										<li class="layer" id="l1" data-depth="0.00"><img src="images/bg.jpg"></li>
+										<li class="layer" id="l2" data-depth="0.20"><img src="images/trener.png"></li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- Scripts -->
+							<script src="deploy/parallax.min.js"></script>
+							<script>
+
+							// Pretty simple huh?
+							var scene = document.getElementById('scene');
+							var parallax = new Parallax(scene);
+			
+							</script>
+                         
+							
+							<!-- P A R A L A K S A --> <!-- P A R A L A K S A --> <!-- P A R A L A K S A --> <!-- P A R A L A K S A --> <!-- P A R A L A K S A -->
+
+
+
+<section id="describe" class="sections"> <!-- Describe Section-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-center describe-images wow fadeInRight" data-wow-offset="10" data-wow-duration="1.5s">
+                                <img src="images/describe-monitor1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+
+
+                            <!--  Heading-->
+                            <div class="heading-left black-text wow fadeIn" data-wow-offset="120" data-wow-duration="1.5s">
+                                <div class="title-half"><h2>Best landing page pack </h2></div>
+                                <div class="separator_wrap-left"> <div class="separator2"></div></div>
+                            </div>
+
+                            <div class="describe-details wow fadeInLeft" data-wow-offset="10" data-wow-duration="1.5s">
+                                <p class="margin-bottom-60">
+                                    Landing ultimate landing page builder save your tons of time to design your website, Loren ipsum dolar sit amet cool Apps showcase. Wow ultimate landing page builder save your tons of time to design your website, Loren ipsum dolar sit amet cool Apps showcase.                                 
+                                </p>
+
+                                <div class="describe-list">
+                                    <div class="describe-list-icon">
+                                        <i class="fa fa-gg"></i>
+                                    </div>
+                                    <div class="describe-list-content">
+                                        <h5>Landing ultimate landing page </h5>
+                                        <p>Landing ultimate landing page builder save your tons of time to Wows ultimate landing page builder save your tons of time to</p>
+                                    </div>
+
+                                </div>
+                                <div class="describe-list">
+                                    <div class="describe-list-icon">
+                                        <i class="fa fa-object-ungroup"></i>
+                                    </div>
+                                    <div class="describe-list-content">
+                                        <h5>Landing a solid drag &amp; drop builder </h5>
+                                        <p>Landing ultimate landing page builder save your tons of time to Wows ultimate landing page builder save your tons of time to</p>
+                                    </div>
+
+                                </div>
+                               
+                            </div>
+
+                        </div>
+
+                    </div><!--end row-->
+                </div><!--end container-->
+            </section><!--end section--><section id="team" class="sections"><!-- Describe Section-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+
+
+                            <!--  Heading-->
+                            <div class="heading-left wow fadeIn" data-wow-offset="120" data-wow-duration="1.5s">
+                                <div class="title-half"><h2>Why you buy landing</h2></div>
+                                <div class="separator_wrap-left"><div class="separator2"></div></div>
+                            </div>
+
+                            <div class="describe-details wow fadeInLeft" data-wow-offset="10" data-wow-duration="1.5s">
+                                <p>Habentia sive freta levius circumfuso coeperunt est. Recepta vultus vultus ora timebat ripis galeae fabricator? Melioris fronde caecoque librata caelo tractu. Occiduo non fuerat spisso aestu fert ligavit: nova nix. Mixtam fidem duae possedit elementaque hunc caeca bene natus. Sua moderantum congeriem ligavit:.</p>
+
+                                <ul class="describe-list">
+                                    <li><i class="fa fa-h-square"></i> <span>Wows ultimate landing page builder save your tons of time to</span> </li>
+                                    <li><i class="fa fa-database"></i> <span>Wow ultimate landing page builder save your tons of time to design</span> </li>
+                                    <li><i class="fa fa-shekel"></i> <span>Wow ultimate landing page builder save your tons of time to design</span> </li>
+                                    <li><i class="fa fa-database"></i> <span>Wow ultimate landing page builder save your tons of time to design</span> </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center describe-images wow fadeInRight" data-wow-offset="10" data-wow-duration="1.5s">
+                                <img src="images/describe-monitor.png" alt="">
+                            </div>
+                        </div>
+                    </div><!--end row-->
+                </div><!--end container-->
+            </section><!--end section--><section id="faq" class="sections"> 
