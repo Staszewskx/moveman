@@ -10,7 +10,7 @@
 var preLoader = false; // If you like to hide your menu set true
 
 //MENU HIDE
-var hide_menu = true; // If you like to hide your menu set true
+var hide_menu = false; // If you like to hide your menu set true
 
 // TWITTER ID
 var wowAnimation = true;  //
@@ -55,11 +55,11 @@ jQuery(document).ready(function ($) {
     if (windowWidth > 767) {
 
         if (hide_menu === true) {
-            $('.navbar').addClass('transp-nav');
+            $('.navbar').addClass('hide-nav').hide();
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 200) {
-                 
-                    $('.hide-nav').removeClass('transp-nav');
+                    $('.hide-nav').fadeIn(500);
+                    $('.hide-nav').addClass('navbar');
 
                 } else {
                     $('.hide-nav').fadeOut(500);
