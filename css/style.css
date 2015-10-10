@@ -728,7 +728,14 @@ Style 1
   text-transform: none;
 	line-height: 90%;
 	letter-spacing: 4px
+} 
+
+@media (max-width: 600px) {
+  .home-intro-left .intro-wrap h1 {
+    font-size: 30px; 
+  }
 }
+
 .home-intro-left .intro-wrap h4 {
   color: #ffffff;
   font-size: 1.2rem;
