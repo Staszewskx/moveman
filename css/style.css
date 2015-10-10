@@ -1007,6 +1007,7 @@ Section Feature
  background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center;
+
 	background-color: #0a0a0a;
 }
 
@@ -1614,13 +1615,7 @@ FUNFACT
   width: 100%;
   overflow: hidden;
 }
-.funfact::before {
-	content: "Hello";
-	font-size: 15px;
-	color: red;
-	width: 100px;
-	margin: 0 auto; 
-}
+
 .funfacts-counter .statistic-counter {
   text-align: center;
   font-size: 4.5rem;
