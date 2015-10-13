@@ -148,6 +148,7 @@ input[type="color"],
   border: 1px solid rgba(0, 0, 0, 0.08);
   font-size: 16px;
   height: 45px;
+  background-color: #191919;
 }
 .form-control:focus {
   border-color: #eec400;
@@ -613,9 +614,7 @@ MENU
 }
 /*fixed nav dark*/
 .fixed-nav-dark.navbar {
-  background: #000000;
-   opacity: 0.85;
-  filter: alpha(opacity=85);
+  background: #0A0A0A;
   border-color: rgba(255, 255, 255, 0.1);
 }
 .navbar.fixed-nav-dark .navbar-nav > li > a {
@@ -1526,6 +1525,7 @@ Pricing
   color: #666666;
   border-spacing: 40px;
   margin-top: 40px;
+  border:#dedede;
 }
 
 #moveman {
@@ -1533,6 +1533,23 @@ Pricing
   font-size: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
+  padding-left: 80px;
+}
+
+#moveman-padding {
+  color: #eec400;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 80px;
+}
+
+#moveman-padding-br {
+  color: #eec400;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-left: 80px;
 }
 
 #szary {
@@ -1540,6 +1557,16 @@ Pricing
   font-size: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+#gwarancja-tyt {
+  color: #eec400;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-left: 200px;
+  text-align: center;
 }
 
 #gwarancja {
@@ -1554,6 +1581,7 @@ Pricing
   font-size: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
+  padding-left: 200px;
 }
 
 #tabela-padding {
@@ -1561,11 +1589,18 @@ Pricing
   padding-top: 20px;
 }
 
+#tabela-padding-br {
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
 #tytul-x {
   color: #666666;
   font-size: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
+  padding-left: 200px;
+  text-align: center;
 }
 
 .table-responsive {
@@ -1886,9 +1921,11 @@ contact-2 textarea.form-control {
 .contact-form {
   clear: both;
 }
+
 .contact-form #message {
   margin: 10px 0;
   padding: 0;
+  background-color: #dedede;
 }
 .contact-form .error_message {
   font-size: 18px;
