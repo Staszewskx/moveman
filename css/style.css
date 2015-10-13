@@ -225,10 +225,11 @@ p:last-child {
 }
 .colorsbg .separator2 {
   border: 2px solid;
+  border-color: #eec400;
 }
 .colorsbg .separator_wrap::after,
 .colorsbg .separator_wrap::before {
-  background-color: #ffffff;
+  background-color: #eec400;
 }
 .lightbg {
   background-color: #f9f9f9;
@@ -613,6 +614,8 @@ MENU
 /*fixed nav dark*/
 .fixed-nav-dark.navbar {
   background: #000000;
+   opacity: 0.85;
+  filter: alpha(opacity=85);
   border-color: rgba(255, 255, 255, 0.1);
 }
 .navbar.fixed-nav-dark .navbar-nav > li > a {
@@ -723,7 +726,7 @@ Style 1
 .home-intro-left .intro-wrap h1 {
   color: #ffffff;
 	font-size: 100px;
-	font-weight: thin;
+	font-weight: 100;
   margin-bottom: 15px;
   text-transform: none;
 	line-height: 90%;
@@ -1284,6 +1287,14 @@ Testimonial Caoursel
 .overlay-img .carousel-indicators li {
   border: 1px solid #ffffff;
 }
+
+.testimonialitem img {
+  padding-bottom: 50px ;
+}
+
+#testimonial {
+  background-color: #111111;
+}
 /*
 
 
@@ -1508,11 +1519,82 @@ screenshotS
 /*======================
 Pricing
 ======================*/
+
+.table {
+  text-align: center;
+  padding: 50px;
+  color: #666666;
+  border-spacing: 40px;
+  margin-top: 40px;
+}
+
+#moveman {
+  color: #eec400;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#szary {
+  color: #666666;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#gwarancja {
+  color: #eec400;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#ikonka-x {
+  color: #666666;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#tabela-padding {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#tytul-x {
+  color: #666666;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.table-responsive {
+  min-height: 10%;
+}
+
+#price {
+  background: url(../images/bg-table.jpg) no-repeat center top fixed;
+  background-size: cover;
+}
+
+#dietetyk {
+  font-size: 12px;
+}
+
+#lista-x {
+  font-color: #4c4c4c;
+  text-align: right;
+}
+
+#grey-title {
+  color: #4c4c4c;
+}
+
 .pricing-table {
   margin-bottom: 30px;
   margin-top: 30px;
   text-align: center;
-  border: 1px solid #E6E6E6;
+  border: 1px solid #171717;
   background-color: #F9F9F9;
 }
 .pricing-table ul {
@@ -1522,12 +1604,12 @@ Pricing
   padding-left: 0px;
 }
 .pricing-table ul li {
-  border-bottom: solid 1px #D8D8D8;
+  border-bottom: solid 1px #171717;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .pricing-table ul li.price {
-  background-color: #ffffff;
+  background-color: #171717;
   padding: 40px 20px 20px 20px;
   font-size: 20px;
   color: #353c3e;
@@ -1554,7 +1636,6 @@ Pricing
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 5px solid #F5F5F5;
   padding: 25px 0;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1566,23 +1647,31 @@ Pricing
   margin-bottom: 30px;
   margin-top: 30px;
 }
+
+
+.fa-times {
+  font-size: 2rem;
+  margin-bottom: 4px;
+}
+
 .price-1 .plan b {
   color: #4C4C4C;
 }
 .price-1 .plan .title {
   color: #eec400;
-  font-size: 2rem;
+  font-size: 25px;
   font-weight: 700;
   margin-bottom: 8px;
 }
 .price-1 .plan .description {
   margin: 26px 0;
-  border-top: 1px solid #E8E8E8;
+  border-top: 1px solid #171717;
   line-height: 28px;
-  font-weight: normal;
+  font-weight: bold;
 }
+
 .price-1 .plan li {
-  border-bottom: 1px solid #E8E8E8;
+  border-bottom: 1px solid #171717;
   padding: 10px 0;
 }
 .price-1 .col-md-3 {
@@ -1856,12 +1945,15 @@ contact-2 textarea.form-control {
 /*======================
 footer
 ======================*/
+
+
 .footer-1 {
   background: #0A0A0A;
   padding: 60px 0px 50px;
   font-weight: 200;
   color: #CBD0D3;
 }
+
 .footer-1 a img {
   margin-bottom: 20px;
 }

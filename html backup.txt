@@ -126,3 +126,15 @@
                     </div><!--end row-->
                 </div><!--end container-->
             </section><!--end section--><section id="faq" class="sections"> 
+
+
+
+
+
+--- LOGO:
+
+                                    <div class="logo wow fadeInUp" data-wow-offset="250" data-wow-duration="2.0s"><img src="images/logo.png" alt=""></div>
+
+
+COINTAINER DO TABELKI:
+        <div class="container">
