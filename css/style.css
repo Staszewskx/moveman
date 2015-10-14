@@ -1398,7 +1398,7 @@ Describe section
 */
 
 #describe {
-  background: #010101 url(../images/bg-usluga-online.png) no-repeat left fixed;
+  background: #010101 url(../images/bg-usluga-online.png) no-repeat right fixed;
 }
 
 .describe-list {
@@ -1897,7 +1897,7 @@ CONTACT
 }
 
 .contact-address {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 .contact-1 textarea {
   margin-bottom: 15px;
