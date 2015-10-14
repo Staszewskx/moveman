@@ -1236,8 +1236,15 @@ clients
 /*
 Testimonial Caoursel
 */
+#p-testimonial {
+  font-size: 25px;
+  line-height: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
 .testimonial {
-  background: url(../images/testimonial2.jpg) no-repeat center top fixed;
+  background: url(../images/testimonial.jpg) no-repeat center top fixed;
   /*background-size*/
   -moz-background-size: cover;
   background-size: cover;
@@ -1254,10 +1261,12 @@ Testimonial Caoursel
   text-align: center;
 }
 .testimonialslide .carousel-item p {
-  font-size: 1.4rem;
+  font-size: 2.5rem;
+  font-color: #eec400;
   font-style: italic;
-  line-height: 2.2rem;
-  margin-bottom: 2rem;
+  line-height: 2.8rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 .testimonialslide .carousel-item p::before {
   content: "\f10d";
@@ -2019,6 +2028,10 @@ footer
 ======================*/
 
 
+#footer-separator {
+  padding-bottom: 25px;
+}
+
 .footer-1 {
   background: #0A0A0A;
   padding: 60px 0px 50px;
@@ -2027,14 +2040,13 @@ footer
 }
 
 .footer-1 a img {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .footer-1 h2 {
   color: #ECF0F1;
   font-size: 20px;
   margin-top: 0px;
   margin-bottom: 15px;
-  border: solid 2px #250417;
 }
 .footer-1 span {
   text-transform: uppercase;
