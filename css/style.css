@@ -462,8 +462,9 @@ btn-group-md > .btn {
 }
 .btn-default {
   color: #ffffff;
-  border: 2px solid #ffffff;
+  border: 1px solid #eec400;
   background-color: transparent;
+  margin-top: 15px;
 }
 .btn-default:before,
 .btn-default:after {
@@ -514,7 +515,7 @@ Extra height css
   margin-top: 60px;
 }
 .margin-bottom-60 {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .padding-top-20 {
   padding-top: 1.33rem;
@@ -1402,19 +1403,29 @@ Describe section
 }
 
 .describe-list {
-  padding-bottom: 1.33rem;
+  padding-bottom: 0.5rem;
 }
 .describe-list-icon {
   float: left;
-  width: 3.5rem;
-  font-size: 2rem;
+  width: 2rem;
+  color: #eec400;
+  margin-right: 30px;
+  font-size: 1.5rem;
 }
 .describe-list-content {
   overflow: hidden;
+    padding-bottom: 10px;
 }
+
+#us-online {
+  padding-top: 0px;
+}
+
 .describe-list-content h5 {
   font-size: 1.1rem;
   font-weight: bold;
+  padding-top: 0.4rem;
+  margin-bottom: 1rem;
 }
 .describe-list-content p {
   font-size: 1rem;
@@ -1423,7 +1434,7 @@ Describe section
   margin-top: 40px;
 }
 .describe-list {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 .describe-list li {
   margin-top: 2rem;
