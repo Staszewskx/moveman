@@ -1,0 +1,49 @@
+
+            <section id="contact" class="sections"><!--Contact form-->
+                <div class="container">
+                    <div class="row">
+
+
+                        <!--  Heading-->
+                        <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                            <div class="title text-center"><h1>Jak siê ze mn¹ skontaktowaæ?</h1></div>
+                            <div class="subtitle text-center "><h5>Napisz do mnie maila poprzez formularz poni¿ej, lub zadzwoñ</h5></div>
+                            <div class="separator_wrap"> <div class="separator2"></div></div>
+                        </div>
+                        <div class="contact-3-col">
+
+
+                            <div class="col-md-6">
+                                <!-- CONTACT FORM -->
+                                <div class="contact-form wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                                    <div id="message"></div>
+                                    <form action="scripts/contact.php" class="form-horizontal contact-1" name="contactform" id="contactform">
+                                        <div class="form-group">
+                                            <div class="col-sm-6">
+                                                <input class="form-control" name="name" id="name" placeholder="Imiê" type="text">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input class="form-control" name="email" id="email" placeholder="Twój Email" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-12">
+                                                <textarea name="contact-message" id="msg" class="form-control" cols="30" rows="5" placeholder="Treœæ wiadomoœci"></textarea>
+                                                <button style="font-size: 14px;" type="submit" class="btn btn-primary btn-block btnxs btnbdr contact-1-button" data-loading-text="Wczytujê...">Wyœlij Wiadomoœæ!</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div><!-- end col-md-5 -->
+
+
+                            <div class="col-md-6">
+                                <div class="embed-responsive map-wrapper three">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2547.287652772942!2d19.070729216078547!3d50.32388440435702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716d104a5507b27%3A0x2da9ac2b11daf52b!2sSzpitalna+32A%2C+Czelad%C5%BA!5e0!3m2!1spl!2spl!4v1444346153211" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                            </div><!-- end col-md-4 -->
+
+
+                        </div>
+                    </div> <!-- end row -->
+                </div>

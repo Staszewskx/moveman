@@ -1407,6 +1407,10 @@ Testimonial Caoursel
 Describe section
 */
 
+#dojazd {
+  color: #eec400;
+}
+
 #describe {
   background: #010101 url(../images/bg-usluga-online.png) no-repeat right fixed;
 }
@@ -2014,7 +2018,7 @@ contact-2 textarea.form-control {
 }
 .map-wrapper {
   height: 400px;
-  margin-bottom: -120px;
+  margin-bottom: 0px;
 }
 .map-wrapper.three {
   height: 320px;
