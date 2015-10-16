@@ -1407,6 +1407,10 @@ Testimonial Caoursel
 Describe section
 */
 
+#Uslugi-heading {
+  margin-bottom: 60px;
+}
+
 #dojazd {
   color: #eec400;
 }
@@ -1424,10 +1428,12 @@ Describe section
   color: #eec400;
   margin-right: 30px;
   font-size: 1.5rem;
+  text-align: right;
 }
 .describe-list-content {
   overflow: hidden;
-    padding-bottom: 10px;
+  padding-bottom: 10px;
+  text-align: left;
 }
 
 #us-online {
@@ -2018,7 +2024,7 @@ contact-2 textarea.form-control {
 }
 .map-wrapper {
   height: 400px;
-  margin-bottom: 0px;
+  margin-bottom: -50px;
 }
 .map-wrapper.three {
   height: 320px;
