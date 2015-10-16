@@ -1211,6 +1211,7 @@ clients
   overflow: hidden;
   transition: all 0.4s;
 }
+
 #quote-carousel .carousel-indicators .active {
   background: #333333;
   width: 128px;
@@ -1407,6 +1408,11 @@ Testimonial Caoursel
 Describe section
 */
 
+#Emil-cytat {
+  font-size: 50px;
+  color: #eec400;
+}
+
 #Uslugi-heading {
   margin-bottom: 60px;
 }
@@ -1417,6 +1423,10 @@ Describe section
 
 #describe {
   background: #010101 url(../images/bg-usluga-online.png) no-repeat right fixed;
+}
+
+#o-mnie {
+  background: #010101 url(../images/o-mnie.png) no-repeat right fixed;
 }
 
 .describe-list {
