@@ -1411,8 +1411,8 @@ Describe section
   margin-bottom: 60px;
 }
 
-#dojazd {
-  color: #eec400;
+#first-row {
+  padding-top: 40px;
 }
 
 #describe {
@@ -1503,6 +1503,11 @@ Describe section
 /*======================
 TEAM
 ======================*/
+#team {
+  background: #010101;
+}
+
+
 .team-member {
   text-align: center;
 }
