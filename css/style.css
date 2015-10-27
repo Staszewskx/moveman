@@ -255,16 +255,27 @@ Section
   padding-bottom: 120px;
   position: relative;
   overflow: hidden;
-  background-color: #000000;
+  background-color: #fcfcfc;
 }
 
   section:nth-of-type(2n) {
     background-color: #fcfcfc;
   }
   
+
 #faq {
   background: url(../images/bg-opona.jpg) no-repeat center top fixed;
   background-size: cover;
+  min-height: 750px;
+}
+
+#tytul-faq {
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+#separator-faq {
+  margin-top: 30px;
 }
 
 .sections.footer {
@@ -626,7 +637,7 @@ MENU
 /*fixed nav dark*/
 .fixed-nav-dark.navbar {
   background: #fcfcfc;
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: #cecece;
 }
 .navbar.fixed-nav-dark .navbar-nav > li > a {
   color: #444444;
@@ -1150,10 +1161,10 @@ clients
 .client-item {
   display: inline-block;
   width: 90%;
-  border-bottom: 1px solid #252525;
+  border-bottom: 1px solid #eaeaea;
 }
 .client-wrapper .col-sm-3 {
-  border-right: 1px solid #252525;
+  border-right: 1px solid #eaeaea;
 }
 .client-wrapper .col-sm-3 {
   display: inline-block;
@@ -1399,7 +1410,7 @@ Testimonial Caoursel
 /*---------------------------------------------------------*/
 .panel-default > .panel-heading {
   color: #333;
-  background-color: #0a0a0a;
+  background-color: #0c0c0c;
   border-color: #ed145b;
   padding: 8px 15px;
 }
@@ -1412,7 +1423,7 @@ Testimonial Caoursel
 .panel-title button {
   cursor: pointer;
   width: 100%;
-  text-align: left;
+  text-align: center;
   display: block;
   font-size: 18px;
   color: #fff;
@@ -1439,12 +1450,16 @@ Testimonial Caoursel
   font-size: 100px;
   opacity: 0.5;
   z-index: 1 !important;
-  color: #444;
+  color: #eaeaea;
 }
 /* END */
 /*
 Describe section
 */
+
+#Emil-foto {
+  padding-top: 50px;
+}
 
 #Emil-cytat {
   font-size: 50px;
