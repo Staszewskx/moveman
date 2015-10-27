@@ -1409,7 +1409,8 @@ Testimonial Caoursel
 .panel-default {
   border-color: #eec300;
 }
-.panel-title a {
+.panel-title button {
+  cursor: pointer;
   display: block;
   font-size: 18px;
   color: #7B7B7B;
