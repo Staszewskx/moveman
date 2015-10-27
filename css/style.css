@@ -1400,24 +1400,28 @@ Testimonial Caoursel
 .panel-default > .panel-heading {
   color: #333;
   background-color: #0a0a0a;
-  border-color: #eec300;
+  border-color: #ed145b;
   padding: 8px 15px;
 }
 .panel-group .panel {
   margin-bottom: 0;
 }
 .panel-default {
-  border-color: #eec300;
+  border-color: #ed145b;
 }
 .panel-title button {
   cursor: pointer;
+  width: 100%;
+  text-align: left;
   display: block;
   font-size: 18px;
-  color: #7B7B7B;
+  color: #fff;
 }
+
 .panel-heading i {
   margin-top: -25px;
-  color: #111111;
+  margin-right: 20px;
+  color: #fff;
   /*font-size: 18px;*/
 }
 
@@ -1435,7 +1439,7 @@ Testimonial Caoursel
   font-size: 100px;
   opacity: 0.5;
   z-index: 1 !important;
-  color: #eec400;
+  color: #444;
 }
 /* END */
 /*
