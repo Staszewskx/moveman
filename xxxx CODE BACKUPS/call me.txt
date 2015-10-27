@@ -1,0 +1,16 @@
+
+            <section id="call-now" class="download-bg-img">
+                <div class="overlay-img">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="callnow text-center">
+                                    <h1><i class="fa fa-phone fa-phone-square"></i> Zadzwoñ do mnie</h1>
+                                    <div style="" class="call-number">+48 516 400 015</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!--/-->

@@ -148,7 +148,7 @@ input[type="color"],
   border: 1px solid rgba(0, 0, 0, 0.08);
   font-size: 16px;
   height: 45px;
-  background-color: #191919;
+  background-color: #fff;
 }
 .form-control:focus {
   border-color: #eec400;
@@ -255,11 +255,11 @@ Section
   padding-bottom: 120px;
   position: relative;
   overflow: hidden;
-  background-color: #111111;
+  background-color: #000000;
 }
 
   section:nth-of-type(2n) {
-    background-color: #0A0A0A;
+    background-color: #fcfcfc;
   }
   
 #faq {
@@ -298,28 +298,28 @@ section:nth-of-type(even) {
   /*    margin-bottom: 10px;*/
 }
 .heading {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .overlay {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
   width: 100%;
-  min-height: 900px;
+  min-height: 950px;
 }
 
 
 .overlay-fluid-block {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
   width: 100%;
 }
 .overlay-img {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0);
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
   color: #ffffff;
 }
 .overlay-startup {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
   width: 100%;
 }
 .no-padding {
@@ -335,12 +335,12 @@ Separator
   height: 1px;
   width: 150px;
   margin: auto;
-  background: #eec400;
+  background: #ff0053;
 }
 .separator-left {
   height: 1px;
   width: 150px;
-  background: #eec400;
+  background: #ff0053;
 }
 .separator_wrap {
   text-align: center;
@@ -348,11 +348,11 @@ Separator
 .separator_wrap-left {
   text-align: left;
   margin-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .separator_wrap::after,
 .separator_wrap::before {
-  background-color: #eec400;
+  background-color: #ff0053;
   display: inline-block;
   vertical-align: middle;
   content: "";
@@ -361,7 +361,7 @@ Separator
   margin-top: 2px;
 }
 .separator_wrap-left::after {
-  background-color: #eec400;
+  background-color: #ff0053;
   display: inline-block;
   vertical-align: middle;
   content: "";
@@ -373,7 +373,7 @@ Separator
   display: inline-block;
   width: 8px;
   height: 8px;
-  border: 2px solid #eec400;
+  border: 2px solid #ff0053;
   transform: rotate(45deg);
   margin-right: 4px;
 }
@@ -461,14 +461,14 @@ btn-group-md > .btn {
   opacity: 1;
 }
 .btn-default {
-  color: #ffffff;
-  border: 1px solid #eec400;
+  color: #ed145b;
+  border: 1px solid #ed145b;
   background-color: transparent;
   margin-top: 15px;
 }
 .btn-default:before,
 .btn-default:after {
-  background-color: #ffffff;
+  background-color: #ed145b;
 }
 btn-default:focus {
   background-color: #ffffff;
@@ -476,25 +476,25 @@ btn-default:focus {
 }
 .btn-default:hover {
   border-color: #ffffff;
-  color: #eec400;
+  color: #fff;
   background-color: #ffffff;
 }
 .btn-primary {
-  background-color: #eec400;
-  color: #ffffff;
-  border: 2px solid #eec400;
+  color: #ed145b;
+  border: 1px solid #ed145b;
+  background-color: transparent;
 }
 .btn-primary:before,
 .btn-primary:after {
-  background-color: #ffffff;
+  background-color: #ed145b;
 }
 btn-primary:focus {
-  background-color: #eec400;
+  background-color: #ed145b;
   border-color: transparent;
 }
 .btn-primary:hover {
-  border-color: #eec400;
-  color: #eec400;
+  border-color: #ed145b;
+  color: #ed145b;
 }
 /*
 Extra height css
@@ -606,7 +606,7 @@ MENU
   margin-bottom: 0;
 }
 .navbar.fixed-nav .navbar-nav > li > a {
-  color: #000000;
+  color: #ed145b;
   font-weight: bold;
 }
 .fixed-nav.navbar .navbar-nav > .active > a,
@@ -614,7 +614,7 @@ MENU
 .fixed-nav.navbar .navbar-nav > .active > a:focus,
 .fixed-nav.navbar .navbar-nav > li > a:hover,
 .fixed-nav.navbar .navbar-nav > li > a:focus {
-  color: #eec400;
+  color: #ed145b;
 }
 .navbar-nav {
   padding-top: 10px;
@@ -625,18 +625,18 @@ MENU
 }
 /*fixed nav dark*/
 .fixed-nav-dark.navbar {
-  background: #0A0A0A;
-  border-color: rgba(255, 255, 255, 0.1);
+  background: #fcfcfc;
+  border-color: rgba(255, 255, 255, 0.2);
 }
 .navbar.fixed-nav-dark .navbar-nav > li > a {
-  color: #ffffff;
+  color: #444444;
 }
 .fixed-nav-dark.navbar .navbar-nav > .active > a,
 .fixed-nav-dark.navbar .navbar-nav > .active > a:hover,
 .fixed-nav-dark.navbar .navbar-nav > .active > a:focus,
 .fixed-nav-dark.navbar .navbar-nav > li > a:hover,
 .fixed-nav-dark.navbar .navbar-nav > li > a:focus {
-  color: #eec400;
+  color: #ed145b;
 }
 .fixed-nav-dark .navbar-nav {
   padding-top: 10px;
@@ -734,7 +734,7 @@ Style 1
   padding-top: 150px;
 }
 .home-intro-left .intro-wrap h1 {
-  color: #ffffff;
+  color: #fff;
 	font-size: 100px;
 	font-weight: 100;
   margin-bottom: 15px;
@@ -747,16 +747,30 @@ Style 1
   .home-intro-left .intro-wrap h1 {
     font-size: 30px; 
   }
+
+  .navbar-brand .top-logo {
+    
+  }
 }
 
 .home-intro-left .intro-wrap h4 {
-  color: #ffffff;
+  color: #fff;
   font-size: 1.2rem;
-  margin-top: 30px;
+  margin-top: 0px;
   font-weight: 100;
 	font-size: 40px;
 	letter-spacing: 4px;
 }
+
+h4 spanxxxx {
+  background-color: #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  opacity: 1;
+}
+
 .home-intro-left .home-button {
   padding-bottom: 50px;
   margin-top: 80px;
@@ -1016,12 +1030,18 @@ Section Feature
 }
 
 #features {
- background: url(../images/uploads/mobile.png);
+ background: url(../images/uploads/marmur1v2.jpg);
  background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+ background-attachment: fixed;
+ background-position: center;
 
-	background-color: #0a0a0a;
+   -moz-background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+
+background-color: #fcfcfc;
 }
 
 .feature-items:hover {
@@ -1038,11 +1058,11 @@ Section Feature
   text-align: center;
   position: relative;
   z-index: 1;
-  color: #eec400;
+  color: #5b5b5b;
   overflow: hidden;
   border: 2px solid #FFFFFF;
   border-radius: 50%;
-  box-shadow: 0 0 0 2px #eec400;
+  box-shadow: 0 0 0 2px #ed145b;
   margin-bottom: 10px;
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
@@ -1053,7 +1073,7 @@ Section Feature
 .feature-items:hover i,
 .feature-item:hover i {
   color: #ffffff;
-  background: #eec400;
+  background: #ff0053;
 }
 .feature-items h5 {
   font-size: 22px;
@@ -1109,7 +1129,7 @@ Feature style 2
 call to action
 ======================*/
 .greybg {
-  background-color: #f7f7f7;
+  background-color: #e5e5e5;
 }
 .call-to-action a {
   margin-top: 20px;
@@ -1117,6 +1137,11 @@ call to action
 /*======================
 clients
 ======================*/
+
+.separatory-w-logach {
+  padding-bottom: 50px;
+}
+
 .client-wrapper {
   overflow: hidden;
   text-align: center;
@@ -1285,24 +1310,32 @@ Testimonial Caoursel
 .testimonialslide .testimonialitem h3 {
   font-size: 1.4rem;
   font-weight: 700;
+  color: #ed145b;
 }
+
+.testimonialslide .testimonialitem p {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #444;
+}
+
 .testimonialslide .testimonialitem h3 span {
   font-size: 1rem;
   font-weight: 700;
-  color: #eec400;
+  color: #444;
 }
 .testimonialslide .carousel-indicators .active {
   background-color: transparent!important;
   width: 1.1rem!important;
   height: 1.1rem!important;
-  background: #eec400 !important;
-  border-color: #eec400 !important;
+  background: #ed145b !important;
+  border-color: #ed145b !important;
 }
 .testimonialslide .carousel-indicators {
   bottom: -3rem !important;
 }
 .testimonialslide .carousel-indicators li {
-  border: 1px solid #eec400;
+  border: 1px solid #ed145b;
 }
 .overlay-img .carousel-indicators li {
   border: 1px solid #ffffff;
@@ -1313,7 +1346,7 @@ Testimonial Caoursel
 }
 
 #testimonial {
-  background-color: #111111;
+  background-color: #f4f4f4;
 }
 /*
 
@@ -1410,7 +1443,7 @@ Describe section
 
 #Emil-cytat {
   font-size: 50px;
-  color: #eec400;
+  color: #ed145b;
 }
 
 #Uslugi-heading {
@@ -1422,11 +1455,16 @@ Describe section
 }
 
 #describe {
-  background: #010101 url(../images/bg-usluga-online.png) no-repeat right fixed;
+  background: #010101 url(../images/uploads/marmur1.jpg) no-repeat top fixed;
+    -moz-background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
 }
 
 #o-mnie {
-  background: #010101 url(../images/o-mnie.png) no-repeat right fixed;
+  background: #f7f7f7;
 }
 
 .describe-list {
@@ -1435,7 +1473,7 @@ Describe section
 .describe-list-icon {
   float: left;
   width: 2rem;
-  color: #eec400;
+  color: #ed145b;
   margin-right: 30px;
   font-size: 1.5rem;
   text-align: right;
@@ -1514,7 +1552,7 @@ Describe section
 TEAM
 ======================*/
 #team {
-  background: #010101;
+  background: #fcfcfc;
 }
 
 
@@ -1589,7 +1627,7 @@ Pricing
 }
 
 #moveman {
-  color: #eec400;
+  color: #ed145b;
   font-size: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -1597,7 +1635,7 @@ Pricing
 }
 
 #moveman-padding {
-  color: #eec400;
+  color: #ed145b;
   font-size: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -1605,7 +1643,7 @@ Pricing
 }
 
 #moveman-padding-br {
-  color: #eec400;
+  color: #ed145b;
   font-size: 20px;
   padding-bottom: 30px;
   padding-top: 40px;
@@ -1620,7 +1658,7 @@ Pricing
 }
 
 #gwarancja-tyt {
-  color: #eec400;
+  color: #ed145b;
   font-size: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -1630,7 +1668,7 @@ Pricing
 }
 
 #gwarancja {
-  color: #eec400;
+  color: #ed145b;
   font-size: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -1989,7 +2027,7 @@ contact-2 textarea.form-control {
 .contact-form #message {
   margin: 10px 0;
   padding: 0;
-  background-color: #dedede;
+  background-color: #fcfcfc;
 }
 .contact-form .error_message {
   font-size: 18px;
@@ -2058,17 +2096,17 @@ footer
 }
 
 .footer-1 {
-  background: #0A0A0A;
+  background: #fcfcfc;
   padding: 60px 0px 50px;
   font-weight: 200;
-  color: #CBD0D3;
+  color: #444;
 }
 
 .footer-1 a img {
   margin-bottom: 10px;
 }
 .footer-1 h2 {
-  color: #ECF0F1;
+  color: #444;
   font-size: 20px;
   margin-top: 0px;
   margin-bottom: 15px;
@@ -2081,7 +2119,7 @@ footer
 .footer-1 a span {
   font-size: 26px;
   margin-right: 5px;
-  color: #F0F0F0;
+  color: #444;
   margin-top: 10px;
 }
 .footer-1-light {
@@ -2124,9 +2162,9 @@ footer
 }
 .footer-1 a span:hover,
 .footer-1-light a span:hover {
-  color: #eec400;
-  border: 2px solid #eec400;
+  color: #ed145b;
 }
+
 .footer-1-color {
   padding: 60px 0px 50px;
   font-weight: 200;
@@ -2153,7 +2191,7 @@ footer
 }
 .footer-1 a span:hover,
 .footer-1-color a span:hover {
-  color: #ffffff;
+  color: #ed145b;
 }
 .footer-2 {
   padding-top: 20px;

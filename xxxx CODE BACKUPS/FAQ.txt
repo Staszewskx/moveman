@@ -1,0 +1,128 @@
+
+
+  <section id="faq" class="sections"> <!-- Faq Section-->
+                <div class="container">
+                    <div class="row">
+
+                        <div class="heading wow fadeIn" data-wow-offset="120" data-wow-duration="1.5s">
+                            <div class="title text-center"><h1>FAQ</h1></div>
+
+                            <div class="subtitle text-center "><h5>Najczêœciej zadawane pytania</h5></div>
+                            <div class="separator_wrap"> <div class="separator2"></div></div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="describe-accordion">
+                                <!-- ACORDATION  -->
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><span class="accordion-toggle" data-toggle="collapse" href="#collapseOnea">
+                                            Gdzie odbywaj¹ siê treningi? 
+                                            </a></h4>
+                                        </div>
+                                        <div id="collapseOnea" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                Litwo! Ojczyzno moja! Ty jesteœ jak zdrowie. Ile ciê trzeba ceniæ, ten tylko widzia³ we brzozowym gaju sta³ za wrócone ¿ycie podziêkowaæ Bogu tak rzuci³y. Tu¿ sta³o siê. ju¿ nie powiedzia³ choæ zawsze i stanêli ko³em. W œlad gospodarza wszystko oddycha³o.
+                                            </div>
+                                            <i class="accordion-icon fa fa-info-circle"></i>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <span class="accordion-toggle" data-toggle="collapse" href="#collapseTwoa">
+                                                    Czy mogê uczestniczyæ w treningach po rehabilitacji?
+                                                </a><i class="indicator glyphicon glyphicon-minus  pull-right"></i>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwoa" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                Krótkie by³y czary przeciw czarów. Raz w sadzie, na którego niespodzianie spada grom taki, wsta³ zmieszany, chwilê nic - rzek³ do spoczynku. Starsi i westchnieñ, i tu¿ przy boku s¹siadki a by³ to mówi¹c, ¿e by³y czary przeciw czarów. Raz w Litwê. nieraz nowina, niby zakryty od Nil sz³a rzecz daléj w ¿upanie bia³ym na polu szuka³a kogoœ posadziæ na piersiach, przydawaj¹c zas³ony sukience.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <span class="accordion-toggle" data-toggle="collapse" href="#collapseThreea">
+                                                    Jak odbywa siê p³atnoœæ?
+                                                </a><i class="indicator glyphicon glyphicon-minus pull-right"></i>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThreea" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                Litwo! Ojczyzno moja! Ty jesteœ jak zdrowie. Ile ciê trzeba ceniæ, ten tylko widzia³ we brzozowym gaju sta³ za wrócone ¿ycie podziêkowaæ Bogu tak rzuci³y. Tu¿ sta³o siê. ju¿ nie powiedzia³ choæ zawsze i stanêli ko³em. W œlad gospodarza wszystko oddycha³o.
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+
+
+                            <div class="describe-accordion">
+                                <!-- ACORDATION  -->
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <span class="accordion-toggle" data-toggle="collapse" href="#collapseOne">
+                                                    Gdzie odbywaj¹ siê treningi? 
+                                                </a><i class="indicator glyphicon glyphicon-plus  pull-right"></i>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                Krótkie by³y czary przeciw czarów. Raz w sadzie, na którego niespodzianie spada grom taki, wsta³ zmieszany, chwilê nic - rzek³ do spoczynku. Starsi i westchnieñ, i tu¿ przy boku s¹siadki a by³ to mówi¹c, ¿e by³y czary przeciw czarów. Raz w Litwê. nieraz nowina, niby zakryty od Nil sz³a rzecz daléj w ¿upanie bia³ym na polu szuka³a kogoœ posadziæ na piersiach, przydawaj¹c zas³ony sukience.
+                                            </div>
+                                            <i class="accordion-icon fa fa-info-circle"></i>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <span class="accordion-toggle" data-toggle="collapse" href="#collapseTwo">
+                                                    Czy mogê uczestniczyæ w treningach po rehabilitacji?
+                                                </a><i class="indicator glyphicon glyphicon-minus  pull-right"></i>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                Litwo! Ojczyzno moja! Ty jesteœ jak zdrowie. Ile ciê trzeba ceniæ, ten tylko widzia³ we brzozowym gaju sta³ za wrócone ¿ycie podziêkowaæ Bogu tak rzuci³y. Tu¿ sta³o siê. ju¿ nie powiedzia³ choæ zawsze i stanêli ko³em. W œlad gospodarza wszystko oddycha³o.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <span class="accordion-toggle" data-toggle="collapse" href="#collapseThree">
+                                                    Jak odbywa siê p³atnoœæ?
+                                                </a><i class="indicator glyphicon glyphicon-minus pull-right"></i>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                Krótkie by³y czary przeciw czarów. Raz w sadzie, na którego niespodzianie spada grom taki, wsta³ zmieszany, chwilê nic - rzek³ do spoczynku. Starsi i westchnieñ, i tu¿ przy boku s¹siadki a by³ to mówi¹c, ¿e by³y czary przeciw czarów. Raz w Litwê. nieraz nowina, niby zakryty od Nil sz³a rzecz daléj w ¿upanie bia³ym na polu szuka³a kogoœ posadziæ na piersiach, przydawaj¹c zas³ony sukience.
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--end half-->
+
+                    </div><!--end row-->
+                </div><!--end container-->
+
+                <div class="heading wow fadeIn" data-wow-offset="120" data-wow-duration="1.5s">
+                    <div class="separator_wrap"> <div class="separator2"></div></div>
+                </div>
+
+            </section><!--end section-->

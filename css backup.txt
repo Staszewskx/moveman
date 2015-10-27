@@ -1,3 +1,0 @@
-  border: 5px solid #171717;
-
-.price-1 .plan
