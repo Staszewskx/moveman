@@ -740,6 +740,9 @@ Home section
 /*
 Style 1
 */
+
+
+
 .home-intro-left {
   margin: auto;
   padding-top: 150px;
@@ -773,13 +776,29 @@ Style 1
 	letter-spacing: 4px;
 }
 
-h4 spanxxxx {
-  background-color: #fff;
+h4 spanxxx {
+  font-color: #fff;
+  background-color: #ed145b;
   padding-bottom: 10px;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
   opacity: 1;
+}
+
+
+#img-5-lat {
+  margin-top: 0px;
+  margin-left: -50px;
+}
+
+#lat-doswiadczenia {
+  padding-top: 10px;
+  margin-left: 10px;
+  color: #ed145b;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .home-intro-left .home-button {
@@ -1088,6 +1107,7 @@ background-color: #fcfcfc;
 }
 .feature-items h5 {
   font-size: 22px;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 .features-left,
@@ -1097,6 +1117,12 @@ background-color: #fcfcfc;
 /*
 Feature style 2
 */
+
+#feature-p {
+  font-weight: 700;
+  color: #ed145b;
+}
+
 .feature-item .feature-text2 {
   margin-bottom: 20px;
 }
@@ -1129,9 +1155,11 @@ Feature style 2
 }
 .features-left-3 p {
   overflow: hidden;
+  font-weight: 300;
 }
 .features-left-3 .feature-items {
   margin-bottom: 10px;
+  font-weight: 300;
 }
 .feature {
   clear: both;
@@ -1303,7 +1331,7 @@ Testimonial Caoursel
   font-style: italic;
   line-height: 2.8rem;
   margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 .testimonialslide .carousel-item p::before {
   content: "\f10d";
@@ -1325,7 +1353,7 @@ Testimonial Caoursel
 }
 
 .testimonialslide .testimonialitem p {
-  font-size: 3rem;
+  font-size: 25px;
   font-weight: 300;
   color: #444;
 }
@@ -1353,7 +1381,7 @@ Testimonial Caoursel
 }
 
 .testimonialitem img {
-  padding-bottom: 50px ;
+  padding-bottom: 25px ;
 }
 
 #testimonial {
@@ -1484,7 +1512,8 @@ Describe section
 }
 
 #o-mnie {
-  background: #f7f7f7;
+  background: #fcfcfc url(../images/bg-emil.png) no-repeat right fixed;
+  width: 100%;
 }
 
 .describe-list {
@@ -1646,78 +1675,128 @@ Pricing
   border:#dedede;
 }
 
+#ikonka-x {
+  color: #cecece;
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 100px;
+}
+
+#ikonka-x-bg {
+  background: #f9f9f9;
+}
+
 #moveman {
   color: #ed145b;
   font-size: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
-  padding-left: 80px;
-}
-
-#moveman-padding {
-  color: #ed145b;
-  font-size: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-left: 80px;
-}
-
-#moveman-padding-br {
-  color: #ed145b;
-  font-size: 20px;
-  padding-bottom: 30px;
-  padding-top: 40px;
-  padding-left: 80px;
+  padding-left: 0px;
+  background: #f9f9f9;
 }
 
 #szary {
   color: #666666;
-  font-size: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: #f9f9f9;
+}
+
+#szary-suple {
+  color: #666666;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: #f9f9f9;
+  padding-right: 80px;
+}
+
+#szary-cwiczenia {
+  color: #666666;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: #f9f9f9;
+  padding-right: 80px;
+}
+
+#szary-dietetyk {
+  color: #666666;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: #f9f9f9;
+  padding-right: 80px;
+}
+
+
+#moveman-padding {
+  color: #ed145b;
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-left: 0px;
+}
+
+#moveman-padding-br {
+  color: #ed145b;
+  font-size: 14px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 0px;
+  background: 
 }
 
 #gwarancja-tyt {
   color: #ed145b;
-  font-size: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-left: 80px;
-  padding-left: 200px;
+  font-size: 14px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 100px;
   text-align: center;
+  background: #fcfcfc;
 }
 
-#gwarancja {
+#gwarancja-nie {
   color: #ed145b;
-  font-size: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  font-size: 13px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background: #fcfcfc;
+  padding-right: 80px;
 }
 
-#ikonka-x {
-  color: #666666;
-  font-size: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-left: 200px;
+#gwarancja-tak {
+    color: #ed145b;
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-left: 0px;
+    background: #fcfcfc;
 }
 
 #tabela-padding {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 12px;
+  padding-right: 80px;
 }
 
 #tabela-padding-br {
-  padding-bottom: 30px;
-  padding-top: 40px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-size: 12px;
+  padding-right: 80px;
 }
 
 #tytul-x {
   color: #666666;
-  font-size: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-left: 200px;
+  font-size: 14px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 100px;
   text-align: center;
 }
 
@@ -1726,8 +1805,7 @@ Pricing
 }
 
 #price {
-  background: url(../images/bg-table.jpg) no-repeat center top fixed;
-  background-size: cover;
+  background: #fff;
 }
 
 #dietetyk {
@@ -2110,6 +2188,10 @@ contact-2 textarea.form-control {
 footer
 ======================*/
 
+#miedzy-nami {
+  color: #ed145b;
+  font-weight: 700;
+}
 
 #footer-separator {
   padding-bottom: 25px;
