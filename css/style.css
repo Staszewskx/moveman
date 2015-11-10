@@ -641,6 +641,7 @@ MENU
 }
 .navbar.fixed-nav-dark .navbar-nav > li > a {
   color: #444444;
+  font-weight: 400;
 }
 .fixed-nav-dark.navbar .navbar-nav > .active > a,
 .fixed-nav-dark.navbar .navbar-nav > .active > a:hover,
@@ -731,11 +732,10 @@ Home section
 }
 .home-msg {
   background: url(../images/home-msg.jpg) no-repeat center top fixed;
-  /*background-size*/
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -moz-background-size: 2000px 1105px;
+  -webkit-background-size: 2000px 1105px;
+  -o-background-size: 2000px 1105px;
+  background-size: 2000px 1105px;
 }
 /*
 Style 1
@@ -1059,17 +1059,14 @@ Section Feature
   transition: all 300ms linear;
 }
 
+
 #features {
- background: url(../images/uploads/marmur1v2.jpg);
- background-repeat:no-repeat;
- background-attachment: fixed;
- background-position: center;
+ background: url(../images/uploads/marmur1v2.jpg) no-repeat center top;
 
    -moz-background-size: cover;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  width: 100%;
 
 background-color: #fcfcfc;
 }
@@ -1176,6 +1173,12 @@ call to action
 /*======================
 clients
 ======================*/
+
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
 
 .separatory-w-logach {
   padding-bottom: 50px;
@@ -1512,8 +1515,7 @@ Describe section
 }
 
 #o-mnie {
-  background: #fcfcfc url(../images/bg-emil.png) no-repeat right fixed;
-  width: 100%;
+  background: #fff;
 }
 
 .describe-list {
@@ -1880,6 +1882,16 @@ Pricing
 }
 
 
+
+
+.dowiedz-sie-wiecej {
+  color: #fc0444;
+}
+
+#plus {
+  color: #ed145b;
+}
+
 .fa-times {
   font-size: 2rem;
   margin-bottom: 4px;
@@ -1925,6 +1937,10 @@ Real estate
 /*======================
 FUNFACT
 ======================*/
+
+
+
+
 .funfact {
   background: url(../images/funfact.jpg) no-repeat center top fixed;
   /*background-size*/
