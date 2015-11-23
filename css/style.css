@@ -427,6 +427,9 @@ Separator
     width: 8px;
     height: 8px;
     border: 2px solid #ff0053;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     margin: -1px 4px;
 }

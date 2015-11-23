@@ -189,10 +189,12 @@
 
     .csstransforms .table th > div {
         -webkit-transform: translate(25px, 51px) rotate(315deg);
+        -moz-transform: translate(25px, 51px) rotate(315deg);
         -ms-transform: translate(25px, 51px) rotate(315deg);
         transform: translate(10px, 50px) rotate(-55deg);
         width: 40px;
     }
+
     .csstransforms .table th > div > span {
         padding: 5px 10px;
     }
