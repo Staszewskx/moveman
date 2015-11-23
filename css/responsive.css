@@ -74,6 +74,23 @@
         clear: both;
         text-align: left;
     }
+
+    .separator-faq {
+        margin: 0 20px;
+    }
+
+    .panel-group {
+        margin-bottom: 6px;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 8px 2px;
+    }
+
+    .panel-default button {
+        padding: 6px 0;
+        font-size: 16px;
+    }
 }
 
 /* Landscape phones and portrait tablets */
