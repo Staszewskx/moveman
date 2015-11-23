@@ -1580,6 +1580,7 @@ Testimonial Caoursel
     display: block;
     font-size: 18px;
     color: #fff;
+    overflow: hidden;
 }
 
 .panel-heading i {
