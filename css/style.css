@@ -749,6 +749,7 @@ MENU
 }
 
 .fixed-nav-dark .navbar-toggle {
+    background: #505050;
     margin-bottom: 12px;
     margin-top: 13px;
 }
