@@ -428,7 +428,7 @@ Separator
     height: 8px;
     border: 2px solid #ff0053;
     transform: rotate(45deg);
-    margin-right: 4px;
+    margin: -1px 4px;
 }
 
 /*
