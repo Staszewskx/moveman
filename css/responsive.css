@@ -147,6 +147,61 @@
         vertical-align: baseline;
         margin-top: 30px;
     }
+
+    .table-responsive {
+        border: 0;
+    }
+
+    .csstransforms .table {
+        border-collapse: collapse;
+        font-size: 12px;
+    }
+    
+    .csstransforms .table td {
+        
+    }
+
+    .csstransforms .table td:not(:first-child) {
+        width: 40px;
+    }
+
+    .csstransforms .table th {
+        height: 130px;
+        white-space: nowrap;
+    }
+
+    .csstransforms .table th > div {
+        -webkit-transform: translate(25px, 51px) rotate(315deg);
+        -ms-transform: translate(25px, 51px) rotate(315deg);
+        transform: translate(10px, 50px) rotate(-55deg);
+        width: 40px;
+    }
+    .csstransforms .table th > div > span {
+        padding: 5px 10px;
+    }
+
+    .csstransforms .table td:not(:first-child) {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .csstransforms .table th:last-child,
+    .csstransforms .table td:last-child{
+        padding-right: 100px;
+    }
+
+    .csstransforms .table td:first-child {
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .csstransforms .table th:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .csstransforms .table td:nth-child(2) {
+        font-size: 12px;
+    }
 }
 
 /* Landscape phones and smaller */
