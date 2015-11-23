@@ -180,6 +180,7 @@ h1 {
     font-size: 3rem;
     line-height: 4rem;
     font-weight: normal;
+    margin: .67em;
 }
 
 h2 {
@@ -788,10 +789,10 @@ Home section
     color: #fff;
     font-size: 100px;
     font-weight: 100;
-    margin-bottom: 15px;
+    margin: 65px 0 15px;
     text-transform: none;
     line-height: 90%;
-    letter-spacing: 4px
+    letter-spacing: 4px;
 }
 
 @media (max-width: 770px) {
@@ -1135,6 +1136,11 @@ Section Feature
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-color: #fcfcfc;
+}
+
+.features {
+    margin: 0 auto;
+    width: 70%;
 }
 
 .feature-items:hover {
