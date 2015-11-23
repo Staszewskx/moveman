@@ -1277,8 +1277,8 @@ clients
 
 .client-item {
     display: inline-block;
-    width: 90%;
-    border-bottom: 1px solid #eaeaea;
+    width: 250px;
+    margin: 20px;
 }
 
 .client-wrapper .col-sm-3 {
@@ -1294,12 +1294,10 @@ clients
 }
 
 .client-wrapper img {
-    max-width: 60%;
     opacity: 0.5;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
-    -webkit-backface-visibility: unset;
     margin: auto;
     display: block;
 }
