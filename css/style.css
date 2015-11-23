@@ -1479,14 +1479,12 @@ Testimonial Caoursel
 }
 
 .testimonialslide .carousel-indicators .active {
-    width: 1.1rem !important;
-    height: 1.1rem !important;
-    background: #ed145b !important;
-    border-color: #ed145b !important;
+    background: #ed145b;
+    border-color: #ed145b;
 }
 
 .testimonialslide .carousel-indicators {
-    bottom: -3rem !important;
+    bottom: -3rem;
 }
 
 .testimonialslide .carousel-indicators li {

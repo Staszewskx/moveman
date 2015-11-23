@@ -274,3 +274,17 @@
     }
 }
 
+@media (pointer:coarse) {
+    .carousel-indicators li {
+        width: 14px;
+        height: 14px;
+        margin: 10px;
+    }
+
+    .carousel-indicators .active {
+        width: 18px;
+        height: 18px;
+        margin: 8px;
+    }
+}
+
