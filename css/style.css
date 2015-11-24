@@ -58,18 +58,6 @@ PRELOADER
     overflow: hidden !important;
 }
 
-.loaded {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    background: url(../images/loading.gif) no-repeat center;
-    -moz-background-size: cover;
-    background-size: cover;
-    margin: -20px 0 0 -20px;
-}
-
 img {
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -288,7 +276,7 @@ section:nth-of-type(2n) {
 }
 
 #faq {
-    background: url(../images/bg-opona.jpg) no-repeat center top fixed;
+    background: url(../images/background-faq.jpg) no-repeat center top fixed;
     background-size: cover;
     min-height: 750px;
 }
@@ -776,7 +764,7 @@ Home section
 }
 
 .home-msg {
-    background: url(../images/home-msg.jpg) no-repeat center top fixed;
+    background: url(../images/background-header.jpg) no-repeat center top fixed;
     -moz-background-size: 2000px 1105px;
     -webkit-background-size: 2000px 1105px;
     -o-background-size: 2000px 1105px;
@@ -1631,8 +1619,8 @@ Describe section
     padding-top: 40px;
 }
 
-#describe {
-    background: #010101 url(../images/uploads/marmur1.jpg) no-repeat top fixed;
+.describe {
+    background: #010101 url(../images/background-marble.jpg) no-repeat top fixed;
     -moz-background-size: cover;
     background-size: cover;
     -webkit-background-size: cover;
@@ -2000,7 +1988,7 @@ FUNFACT
 ======================*/
 
 .funfact {
-    background: url(../images/funfact.jpg) no-repeat center top fixed;
+    background: url(../images/background-numbers.jpg) no-repeat center top fixed;
     /*background-size*/
     -moz-background-size: cover;
     background-size: cover;
