@@ -1122,6 +1122,7 @@ Section Feature
 }
 
 #features {
+    background: url(../images/background-marble-2.jpg) no-repeat top fixed;
     -moz-background-size: cover;
     background-size: cover;
     -webkit-background-size: cover;
@@ -1619,8 +1620,8 @@ Describe section
     padding-top: 40px;
 }
 
-.describe {
-    background: #010101 url(../images/background-marble.jpg) no-repeat top fixed;
+#describe {
+    background: url(../images/background-marble.jpg) no-repeat top fixed;
     -moz-background-size: cover;
     background-size: cover;
     -webkit-background-size: cover;
