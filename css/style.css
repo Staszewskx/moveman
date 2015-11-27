@@ -2564,3 +2564,7 @@ footer
     color: #ed145b;
     font-weight: 400;
 }
+
+.table-image {
+    margin: 40px 0 -150px;
+}
