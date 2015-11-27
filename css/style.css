@@ -1130,11 +1130,6 @@ Section Feature
     background-color: #fcfcfc;
 }
 
-.features {
-    margin: 0 auto;
-    width: 70%;
-}
-
 .feature-items:hover {
     background-color: transparent;
     border-radius: 5px;
