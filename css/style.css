@@ -186,7 +186,7 @@ h3 {
 
 h4 {
     font-size: 1.6rem;
-    line-height: 2.2rem;
+    line-height: 3.6rem;
     margin-bottom: 1.1rem;
 }
 
@@ -277,7 +277,10 @@ section:nth-of-type(2n) {
 
 #faq {
     background: url(../images/background-faq.jpg) no-repeat center top fixed;
+    -moz-background-size: cover;
     background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
     min-height: 750px;
 }
 
@@ -334,7 +337,6 @@ section:nth-of-type(even) {
 .overlay {
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
-    min-height: 950px;
 }
 
 .overlay-fluid-block {
@@ -764,11 +766,19 @@ Home section
 }
 
 .home-msg {
-    background: url(../images/background-header.jpg) no-repeat center top fixed;
-    -moz-background-size: 2000px 1105px;
-    -webkit-background-size: 2000px 1105px;
-    -o-background-size: 2000px 1105px;
-    background-size: 2000px 1105px;
+    background: url(../images/background-header.jpg) no-repeat 70% top fixed;
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.experience {
+    margin-bottom: 200px;
+}
+
+.experience img {
+    width: 350px;
 }
 
 .home-intro-left {
@@ -782,18 +792,8 @@ Home section
     font-weight: 100;
     margin: 65px 0 15px;
     text-transform: none;
-    line-height: 90%;
+    line-height: 100%;
     letter-spacing: 4px;
-}
-
-@media (max-width: 770px) {
-    .home-intro-left .intro-wrap h1 {
-        font-size: 30px;
-    }
-
-    .navbar-brand .top-logo {
-
-    }
 }
 
 .home-intro-left .intro-wrap h4 {
