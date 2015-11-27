@@ -322,3 +322,22 @@
     }
 }
 
+@media only screen and (orientation: portrait) {
+    .home-msg, #features, #describe, .funfact, #faq {
+        background-size: auto 100%;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .home-msg, #features, #describe, .funfact, #faq {
+        background-size: 100% auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
