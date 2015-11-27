@@ -2553,14 +2553,19 @@ footer
     height: 100%;
 }
 
-.cc_container .cc_btn.cc_btn {
+.cc_container.cc_container {
+    font-family: Lato, sans-serif;
+}
+
+.cc_container.cc_container .cc_btn {
+    border: 1px solid #ed145b;
+    background: #ed145b;
+    color: #fff;
+}
+
+.cc_container.cc_container .cc_btn:hover {
     border: 1px solid #ed145b;
     background: #fff;
     color: #ed145b;
-    font-weight: 500;
-}
-
-.cc_container .cc_btn.cc_btn:hover {
-    background: #ed145b;
-    color: #fff;
+    font-weight: 400;
 }
