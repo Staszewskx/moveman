@@ -2597,3 +2597,11 @@ footer
 .styled-select select::-ms-expand {
     display: none;
 }
+
+.iOS #faq,
+.iOS .funfact,
+.iOS #describe,
+.iOS #features,
+.iOS .home-msg {
+    background-attachment: scroll;
+}

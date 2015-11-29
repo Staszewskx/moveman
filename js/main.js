@@ -89,7 +89,7 @@ jQuery(document).ready(function ($) {
     });
 
     /*---------------------------------------------*
-     * Map
+     * Contact Form
      ---------------------------------------------*/
 
     var $form = $('#contactform');
@@ -111,5 +111,14 @@ jQuery(document).ready(function ($) {
         });
         return false;
     });
+
+    /*---------------------------------------------*
+     * iPad Detection
+     ---------------------------------------------*/
+
+    var isiOS = ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i)));
+    if (isiOS) {
+        $(document.body).addClass('iOS');
+    }
 
 });
