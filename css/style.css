@@ -1598,6 +1598,28 @@ Testimonial Caoursel
 Describe section
 */
 
+#h1-describe2 {
+    color: #fff;
+}
+
+#h5-describe2 {
+    color: #fff;
+}
+
+#h2-dla-firm-1 {
+    font-size: 80px;
+    padding-top: 90px;
+}
+
+#h2-dla-firm-2 {
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+#h5-dla-firm {
+    font-size: 30px;
+}
+
 #Emil-foto {
     padding-top: 50px;
 }
@@ -1622,6 +1644,23 @@ Describe section
     -webkit-background-size: cover;
     -o-background-size: cover;
     width: 100%;
+}
+
+#describe2 {
+    background: url(../images/background-faq.jpg) no-repeat top fixed;
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+}
+
+#describe34 {
+    background: #f4f4f4;
+}
+
+#describe4 {
+    background: #f5f5f5;
 }
 
 #o-mnie {
@@ -1984,7 +2023,7 @@ FUNFACT
 ======================*/
 
 .funfact {
-    background: url(../images/background-numbers.jpg) no-repeat center top fixed;
+    background: url(../images/background-faq.jpg) no-repeat center top fixed;
     /*background-size*/
     -moz-background-size: cover;
     background-size: cover;
