@@ -29,9 +29,6 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser.
     Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
-<div class="preloader" style="display: none">
-    <div class="loaded">&nbsp;</div>
-</div>
 <div id="page" class="page">
     <header>
         <nav class="navbar fixed-nav-dark navbar-inverse navbar-fixed-top" id="main-navbar">
@@ -68,27 +65,22 @@
         <div class="overlay">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-sm-12">
                         <div class="home-intro-left">
                             <div class="intro-wrap">
                                 <div class="heading wow fadeInUp" data-wow-offset="300" data-wow-duration="1.5s">
-                                    <h1>Emil Strumiński<br></h1>
+                                    <h1>Emil<br>Strumiński<br></h1>
                                 </div>
                                 <div class="separator_wrap-left wow fadeInUp" data-wow-offset="300"
                                      data-wow-duration="1.5s">
                                     <div class="separator2"></div>
                                 </div>
-                                <div class="heading wow fadeInUp" data-wow-offset="400" data-wow-duration="2s">
+                                <div class="heading wow fadeInUp" data-wow-offset="15" data-wow-duration="2s">
                                     <h4>Trener i dietetyk</h4>
                                 </div>
                             </div>
-                            <div class="5lat">
-                                <div class="col-sm-10">
-                                    <div class="text-center describe-images wow fadeInUp" data-wow-offset="15"
-                                         data-wow-duration="2s" id="img-5-lat">
-                                        <img src="images/image-experience.png" alt="">
-                                    </div>
-                                </div>
+                            <div class="experience wow fadeInUp" data-wow-offset="15" data-wow-duration="2s">
+                                <img src="images/image-experience.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -109,7 +101,7 @@
                     </div>
                 </div>
                 <div class="features">
-                    <div class="col-sm-6 features-left text-center wow fadeInLeft" data-wow-offset="10"
+                    <div class="col-sm-4 features-left text-center wow fadeInLeft" data-wow-offset="10"
                          data-wow-duration="1.5s">
                         <div class="feature-items">
                             <i class="features-icon fa fa-user"></i>
@@ -133,7 +125,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-6 features-right text-center wow fadeInRight" data-wow-offset="10"
+                    <div class="col-sm-4">
+                    </div>
+                    <div class="col-sm-4 features-right text-center wow fadeInRight" data-wow-offset="10"
                          data-wow-duration="1.5s">
                         <div class="feature-items">
                             <i class="features-icon fa fa-line-chart"></i>
@@ -163,69 +157,301 @@
     </section>
 
     <section id="faq" class="sections">
-        <div class="row">
-            <div class="heading wow fadeIn" data-wow-offset="120" data-wow-duration="1.5s">
-                <div class="title text-center tytul-faq"><h1>Nasz wachlarz możliwości</h1></div>
-                <div class="subtitle text-center tytul-faq"><h5>Możesz dość do swego celu wybraną przez siebie
-                    drogą. Albo wszystkimi na raz.</h5></div>
-                <div class="separator_wrap">
-                    <div class="separator2"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="heading wow fadeIn" data-wow-offset="120" data-wow-duration="1.5s">
+                    <div class="title text-center tytul-faq"><h1>Nasz wachlarz możliwości</h1></div>
+                    <div class="subtitle text-center tytul-faq"><h5>Możesz dość do swego celu wybraną przez siebie
+                        drogą. Albo wszystkimi na raz.</h5></div>
+                    <div class="separator_wrap">
+                        <div class="separator2"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-1">
-            </div>
-            <div class="col-md-5">
-                <div class="describe-accordion separator-faq">
-                    <div class="panel-group accordion">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <button class="accordion-toggle btn btn-link" data-toggle="collapse"
-                                            data-target="#collapseOnea">Konsultacje Żywieniowe i Treningowe
-                                    </button>
-                                </h4>
+                <div class="col-sm-1">
+                </div>
+                <div class="col-md-5">
+                    <div class="describe-accordion separator-faq">
+                        <div class="panel-group accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <button class="accordion-toggle btn btn-link" data-toggle="collapse"
+                                                data-target="#collapseOnea">Konsultacje Żywieniowe i Treningowe
+                                        </button>
+                                    </h4>
+                                </div>
+                                <div id="collapseOnea" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="col-md-12 us-online">
+                                            <div class="describe-list">
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Pomiary profesjonalnym analizatorem składu ciała Tanita BC
+                                                        1000</h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Analiza dotychczasowej diety/treningu</h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Ułożenie kompleksowego programu treningowego
+                                                        na okres 6 lub 12 tygodni</h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Skomponowanie indywidualnie dopasowanej diety uwzględniającej
+                                                        preferencje smakowe, nietolerancje, choroby, wyniki badań
+                                                        krwi</h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Stały kontakt mailowy</h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Wizyty kontrolne</h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-car"></i>
+                                                </div>
+                                                <div class="describe-list-content dojazd">
+                                                    <h5>Możliwy dojazd do klienta</h5>
+                                                </div>
+                                                <p class="dowiedz-sie-wiecej">
+                                                    <strong>Dowiedz się więcej - </strong>
+                                                    napisz: <strong>e.struminski@gmail.com</strong>
+                                                    lub zadzwoń: <strong>516 400 015.</strong>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <i class="accordion-icon fa fa-info-circle"></i>
+                                </div>
                             </div>
-                            <div id="collapseOnea" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="col-md-12 us-online">
-                                        <div class="describe-list">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <button class="accordion-toggle btn btn-link" data-toggle="collapse"
+                                                data-target="#collapseTwoa">Doskonalenie Pływania
+                                        </button>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwoa" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="col-md-12">
                                             <div class="describe-list-icon">
                                                 <i class="fa fa-check"></i>
                                             </div>
                                             <div class="describe-list-content">
-                                                <h5>Pomiary profesjonalnym analizatorem składu ciała Tanita BC 1000</h5>
-                                            </div>
-                                            <div class="describe-list-icon">
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="describe-list-content">
-                                                <h5>Analiza dotychczasowej diety/treningu</h5>
-                                            </div>
-                                            <div class="describe-list-icon">
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="describe-list-content">
-                                                <h5>Ułożenie kompleksowego programu treningowego
-                                                    na okres 6 lub 12 tygodni</h5>
+                                                <h5>Redukcja masy ciała</h5>
                                             </div>
                                             <div class="describe-list-icon">
                                                 <i class="fa fa-check"></i>
                                             </div>
                                             <div class="describe-list-content">
-                                                <h5>Skomponowanie indywidualnie dopasowanej diety uwzględniającej
-                                                    preferencje smakowe, nietolerancje, choroby, wyniki badań krwi</h5>
+                                                <h5>Poprawa techniki pływania</h5>
                                             </div>
                                             <div class="describe-list-icon">
                                                 <i class="fa fa-check"></i>
                                             </div>
                                             <div class="describe-list-content">
-                                                <h5>Stały kontakt mailowy</h5>
+                                                <h5>Przygotowanie do Triathlonu</h5>
                                             </div>
                                             <div class="describe-list-icon">
                                                 <i class="fa fa-check"></i>
                                             </div>
                                             <div class="describe-list-content">
-                                                <h5>Wizyty kontrolne</h5>
+                                                <h5>Odciążenie kręgosłupa</h5>
+                                            </div>
+                                            <p>
+                                                Doskonalenie pływania dla dorosłych w grupie odbywa się przy ul.
+                                                Bogucickiej
+                                                3 w Katowicach. W celu realizacji zajęć indywidualnych i grupowych na
+                                                innych
+                                                obiektach proszę o kontakt. Treningi pływackie mogą być uzupełnieniem
+                                                treningów personalnych.
+                                            </p>
+                                            <p class="dowiedz-sie-wiecej">
+                                                <strong>Dowiedz się więcej - </strong>
+                                                napisz: <strong>e.struminski@gmail.com</strong>
+                                                lub zadzwoń: <strong>516 400 015.</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <button class="accordion-toggle btn btn-link" data-toggle="collapse"
+                                                data-target="#collapseThreea">Prelekcje
+                                        </button>
+                                    </h4>
+                                </div>
+                                <div id="collapseThreea" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="col-md-12">
+                                            <p>Oferta skierowana dla klubów sportowych lub innych organizacji: Udzielam
+                                                konsultacji, porad i wykładów na tematy dotyczące:</p>
+                                            <div class="describe-list">
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Zdrowego odżywiania</h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Treningu siłowego i funkcjonalnego</h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Prewencji urazów w sporcie</h5>
+                                                </div>
+                                            </div>
+                                            <p class="dowiedz-sie-wiecej">
+                                                <strong>Dowiedz się więcej - </strong>
+                                                napisz:<strong>e.struminski@gmail.com</strong>
+                                                lub zadzwoń: <strong>516 400 015.</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="describe-accordion separator-faq">
+                        <div class="panel-group accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <button class="accordion-toggle btn btn-link" data-toggle="collapse"
+                                                data-target="#collapseOne">Treningi Personalne
+                                        </button>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="col-md-12">
+                                            <div class="describe-list-icon">
+                                                <i class="fa fa-check"></i>
+                                            </div>
+                                            <div class="describe-list-content">
+                                                <h5>Rekompozycję ciała, redukcję tkanki tłuszczowej
+                                                    i budowę masy mięśniowej</h5>
+                                            </div>
+                                            <div class="describe-list-icon">
+                                                <i class="fa fa-check"></i>
+                                            </div>
+                                            <div class="describe-list-content">
+                                                <h5>Poprawę wydolności i siły</h5>
+                                            </div>
+                                            <div class="describe-list-icon">
+                                                <i class="fa fa-check"></i>
+                                            </div>
+                                            <div class="describe-list-content">
+                                                <h5>Monitorowanie efektów</h5>
+                                            </div>
+                                            <div class="describe-list-icon">
+                                                <i class="fa fa-check"></i>
+                                            </div>
+                                            <div class="describe-list-content">
+                                                <h5>Dostosowywanie intensywności treningów
+                                                    i diety do możliwości klienta</h5>
+                                            </div>
+                                            <div class="describe-list-icon">
+                                                <i class="fa fa-plus plus"></i>
+                                            </div>
+                                            <div class="describe-list-content">
+                                                <h5>Wlementy fizjoterapii i gimnastyki korekcyjnej</h5>
+                                            </div>
+                                            <div class="describe-list-icon">
+                                                <i class="fa fa-plus plus"></i>
+                                            </div>
+                                            <div class="describe-list-content">
+                                                <h5>Pomiary tętna podczas treningów urządzeniem MIOFuse</h5>
+                                            </div>
+                                            <p>
+                                                Efekty współpracy są cyklicznie mierzone poprzez profesjonalny
+                                                analizator
+                                                składu ciała, fałdomierz, testy siłowe i wydolnościowe. Treningi
+                                                dobywają
+                                                się w ekskluzywnym, kameralnym studiu Body Mind Experts w centrum
+                                                Katowic.
+                                                Możliwy jest trening <strong>w 2 lub 3 osoby.</strong>
+                                            </p>
+                                            <p class="dowiedz-sie-wiecej">
+                                                <strong>Dowiedz się więcej - </strong>
+                                                napisz: <strong>e.struminski@gmail.com</strong>
+                                                lub zadzwoń: <strong>516 400 015.</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <button class="accordion-toggle btn btn-link" data-toggle="collapse"
+                                                data-target="#collapseTwo">Streching, rolowanie
+                                        </button>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="col-md-12">
+                                            <div class="describe-list-icon">
+                                                <i class="fa fa-check"></i>
+                                            </div>
+                                            <div class="describe-list-content">
+                                                <h5>Testy funkcjonalne </h5>
+                                            </div>
+                                            <div class="describe-list-icon">
+                                                <i class="fa fa-check"></i>
+                                            </div>
+                                            <div class="describe-list-content">
+                                                <h5>
+                                                    Minimializowanie ryzyka kontuzji w trakcie
+                                                    lub przed sezonem uprawianej dyscypliny sportowej
+                                                    poprzez odpowiednio dobrany trening funkcjonalny
+                                                </h5>
+                                            </div>
+                                            <div class="describe-list-icon">
+                                                <i class="fa fa-check"></i>
+                                            </div>
+                                            <div class="describe-list-content">
+                                                <h5>Trening mobilności oraz stabilności,</h5>
+                                            </div>
+                                            <div class="describe-list-icon">
+                                                <i class="fa fa-check"></i>
+                                            </div>
+                                            <div class="describe-list-content">
+                                                <h5>Streching</h5>
+                                            </div>
+                                            <div class="describe-list-icon">
+                                                <i class="fa fa-check"></i>
+                                            </div>
+                                            <div class="describe-list-content">
+                                                <h5>Rolowanie poprzedzone testami funkcjonalnymi</h5>
                                             </div>
                                             <div class="describe-list-icon">
                                                 <i class="fa fa-car"></i>
@@ -241,287 +467,65 @@
                                         </div>
                                     </div>
                                 </div>
-                                <i class="accordion-icon fa fa-info-circle"></i>
                             </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <button class="accordion-toggle btn btn-link" data-toggle="collapse"
-                                            data-target="#collapseTwoa">Doskonalenie Pływania
-                                    </button>
-                                </h4>
-                            </div>
-                            <div id="collapseTwoa" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="col-md-12">
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Redukcja masy ciała</h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Poprawa techniki pływania</h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Przygotowanie do Triathlonu</h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Odciążenie kręgosłupa</h5>
-                                        </div>
-                                        <p>
-                                            Doskonalenie pływania dla dorosłych w grupie odbywa się przy ul. Bogucickiej
-                                            3 w Katowicach. W celu realizacji zajęć indywidualnych i grupowych na innych
-                                            obiektach proszę o kontakt. Treningi pływackie mogą być uzupełnieniem
-                                            treningów personalnych.
-                                        </p>
-                                        <p class="dowiedz-sie-wiecej">
-                                            <strong>Dowiedz się więcej - </strong>
-                                            napisz: <strong>e.struminski@gmail.com</strong>
-                                            lub zadzwoń: <strong>516 400 015.</strong>
-                                        </p>
-                                    </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <button class="accordion-toggle btn btn-link" data-toggle="collapse"
+                                                data-target="#collapseThree">Treningi indywidualne dla dzieci i
+                                            młodzieży
+                                        </button>
+                                    </h4>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <button class="accordion-toggle btn btn-link" data-toggle="collapse"
-                                            data-target="#collapseThreea">Prelekcje
-                                    </button>
-                                </h4>
-                            </div>
-                            <div id="collapseThreea" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="col-md-12">
-                                        <p>Oferta skierowana dla klubów sportowych lub innych organizacji: Udzielam
-                                            konsultacji, porad i wykładów na tematy dotyczące:</p>
-                                        <div class="describe-list">
-                                            <div class="describe-list-icon">
-                                                <i class="fa fa-check"></i>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="col-md-12">
+                                            <div class="describe-list">
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Analiza diety oraz aktywności fizycznej dziecka</h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Redukcja nadmiaru tkanki tłuszczowej</h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Testy sprawnościowe</h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Zdiagnozowanie ewentualnych wad postawy</h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Gimnastyka korekcyjna </h5>
+                                                </div>
+                                                <div class="describe-list-icon">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="describe-list-content">
+                                                    <h5>Pomiary tętna podczas treningów urządzeniem MIOFuse</h5>
+                                                </div>
+                                                <p class="dowiedz-sie-wiecej">
+                                                    <strong>Dowiedz się więcej - </strong>
+                                                    napisz: <strong>e.struminski@gmail.com</strong>
+                                                    lub zadzwoń: <strong>516 400 015.</strong>
+                                                </p>
                                             </div>
-                                            <div class="describe-list-content">
-                                                <h5>Zdrowego odżywiania</h5>
-                                            </div>
-                                            <div class="describe-list-icon">
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="describe-list-content">
-                                                <h5>Treningu siłowego i funkcjonalnego</h5>
-                                            </div>
-                                            <div class="describe-list-icon">
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="describe-list-content">
-                                                <h5>Prewencji urazów w sporcie</h5>
-                                            </div>
                                         </div>
-                                        <p class="dowiedz-sie-wiecej">
-                                            <strong>Dowiedz się więcej - </strong>
-                                            napisz:<strong>e.struminski@gmail.com</strong>
-                                            lub zadzwoń: <strong>516 400 015.</strong>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="describe-accordion separator-faq">
-                    <div class="panel-group accordion">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <button class="accordion-toggle btn btn-link" data-toggle="collapse"
-                                            data-target="#collapseOne">Treningi Personalne
-                                    </button>
-                                </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="col-md-12">
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
+                                        <div class="col-sm-1">
                                         </div>
-                                        <div class="describe-list-content">
-                                            <h5>Rekompozycję ciała, redukcję tkanki tłuszczowej
-                                                i budowę masy mięśniowej</h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Poprawę wydolności i siły</h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Monitorowanie efektów</h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Dostosowywanie intensywności treningów
-                                                i diety do możliwości klienta</h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-plus plus"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Wlementy fizjoterapii i gimnastyki korekcyjnej</h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-plus plus"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Pomiary tętna podczas treningów urządzeniem MIOFuse</h5>
-                                        </div>
-                                        <p>
-                                            Efekty współpracy są cyklicznie mierzone poprzez profesjonalny analizator
-                                            składu ciała, fałdomierz, testy siłowe i wydolnościowe. Treningi dobywają
-                                            się w ekskluzywnym, kameralnym studiu Body Mind Experts w centrum Katowic.
-                                            Możliwy jest trening <strong>w 2 lub 3 osoby.</strong>
-                                        </p>
-                                        <p class="dowiedz-sie-wiecej">
-                                            <strong>Dowiedz się więcej - </strong>
-                                            napisz: <strong>e.struminski@gmail.com</strong>
-                                            lub zadzwoń: <strong>516 400 015.</strong>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <button class="accordion-toggle btn btn-link" data-toggle="collapse"
-                                            data-target="#collapseTwo">Streching, rolowanie
-                                    </button>
-                                </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="col-md-12">
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Testy funkcjonalne </h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>
-                                                Minimializowanie ryzyka kontuzji w trakcie
-                                                lub przed sezonem uprawianej dyscypliny sportowej
-                                                poprzez odpowiednio dobrany trening funkcjonalny
-                                            </h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Trening mobilności oraz stabilności,</h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Streching</h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="describe-list-content">
-                                            <h5>Rolowanie poprzedzone testami funkcjonalnymi</h5>
-                                        </div>
-                                        <div class="describe-list-icon">
-                                            <i class="fa fa-car"></i>
-                                        </div>
-                                        <div class="describe-list-content dojazd">
-                                            <h5>Możliwy dojazd do klienta</h5>
-                                        </div>
-                                        <p class="dowiedz-sie-wiecej">
-                                            <strong>Dowiedz się więcej - </strong>
-                                            napisz: <strong>e.struminski@gmail.com</strong>
-                                            lub zadzwoń: <strong>516 400 015.</strong>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <button class="accordion-toggle btn btn-link" data-toggle="collapse"
-                                            data-target="#collapseThree">Treningi indywidualne dla dzieci i młodzieży
-                                    </button>
-                                </h4>
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="col-md-12">
-                                        <div class="describe-list">
-                                            <div class="describe-list-icon">
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="describe-list-content">
-                                                <h5>Analiza diety oraz aktywności fizycznej dziecka</h5>
-                                            </div>
-                                            <div class="describe-list-icon">
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="describe-list-content">
-                                                <h5>Redukcja nadmiaru tkanki tłuszczowej</h5>
-                                            </div>
-                                            <div class="describe-list-icon">
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="describe-list-content">
-                                                <h5>Testy sprawnościowe</h5>
-                                            </div>
-                                            <div class="describe-list-icon">
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="describe-list-content">
-                                                <h5>Zdiagnozowanie ewentualnych wad postawy</h5>
-                                            </div>
-                                            <div class="describe-list-icon">
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="describe-list-content">
-                                                <h5>Gimnastyka korekcyjna </h5>
-                                            </div>
-                                            <div class="describe-list-icon">
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="describe-list-content">
-                                                <h5>Pomiary tętna podczas treningów urządzeniem MIOFuse</h5>
-                                            </div>
-                                            <p class="dowiedz-sie-wiecej">
-                                                <strong>Dowiedz się więcej - </strong>
-                                                napisz: <strong>e.struminski@gmail.com</strong>
-                                                lub zadzwoń: <strong>516 400 015.</strong>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-1">
                                     </div>
                                 </div>
                             </div>
@@ -590,10 +594,9 @@
                             <div class="describe-list-content">
                                 <h5>Stały kontakt mailowy z trenerem</h5>
                             </div>
-                            <button style="font-size: 14px;" type="submit"
-                                    class="btn btn-default btn-block btnxs btnbdr contact-1-button"
+                            <a href="form.html" class="btn btn-default btn-block btnxs btnbdr contact-1-button"
                                     data-loading-text="Wczytuję...">Wypełnij Formularz
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -700,104 +703,23 @@
     </section>
 
     <section id="price" class="price-1 sections">
-        <div class="row">
-            <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                <div class="title text-center">
-                    <h1>Co zyskujesz przy współpracy ze mną?</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                    <div class="title text-center">
+                        <h1>Co zyskujesz przy współpracy ze mną?</h1>
+                    </div>
+                    <div class="subtitle text-center">
+                        <h5>Porównaj moje usługi z najbardziej popularnymi alternatywami.</h5>
+                    </div>
+                    <div class="separator_wrap">
+                        <div class="separator2"></div>
+                    </div>
                 </div>
-                <div class="subtitle text-center">
-                    <h5>Porównaj moje usługi z najbardziej popularnymi alternatywami.</h5>
-                </div>
-                <div class="separator_wrap">
-                    <div class="separator2"></div>
-                </div>
-            </div>
-            <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                <div class="table-responsive">
-                    <table class="table">
-                        <tr>
-                            <th></th>
-                            <th>
-                                <div><span>MOVEMAN</span></div>
-                            </th>
-                            <th>
-                                <div><span>Suplementy diety</span></div>
-                            </th>
-                            <th>
-                                <div><span>Ćwiczenia w domu</span></div>
-                            </th>
-                            <th>
-                                <div><span>Dietetyk</span></div>
-                            </th>
-                            <th>
-                                <div><span>Duża siłownia</span></div>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>Spersonalizowany trening</td>
-                            <td>tak</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                        </tr>
-                        <tr>
-                            <td>Spersonalizowana dieta</td>
-                            <td>tak</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                            <td>możliwa</td>
-                            <td>nie</td>
-                        </tr>
-                        <tr>
-                            <td>Pełna odpowiedzialność</td>
-                            <td>tak</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                            <td>zależy</td>
-                            <td>nie</td>
-                        </tr>
-                        <tr>
-                            <td>Motywacja</td>
-                            <td>tak</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                            <td>zależy</td>
-                            <td>zależy</td>
-                        </tr>
-                        <tr>
-                            <td>Poprawa postawy ciała</td>
-                            <td>tak</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                        </tr>
-                        <tr>
-                            <td>Zmniejszenie ryzyka kontuzji</td>
-                            <td>tak</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                        </tr>
-                        <tr>
-                            <td>Polepszenie zdrowia i samopoczucia</td>
-                            <td>tak</td>
-                            <td>nie</td>
-                            <td>możliwa</td>
-                            <td>możliwa</td>
-                            <td>możliwa</td>
-                        </tr>
-                        <tr>
-                            <td>Gwarancja rezultatów</td>
-                            <td>tak</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                            <td>nie</td>
-                        </tr>
-                    </table>
+                <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                    <div class="table-image">
+                        <img src="images/table.jpg" alt="Moveman">
+                    </div>
                 </div>
             </div>
         </div>
@@ -819,6 +741,14 @@
                 <div class="client-wrapper wow fadeIn " data-wow-offset="120" data-wow-duration="1.5s">
                     <div class="client-item">
                         <img alt="client" src="images/partners/bme-250.png">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="video-outer">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/P-Ewj-2MP4Q" frameborder="0"
+                                allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -941,7 +871,7 @@
                             <fieldset>
                                 <div class="form-group">
                                     <div class="col-md-6">
-                                        <input class="form-control" name="imię" id="name" placeholder="Imię"
+                                        <input class="form-control" name="name" id="name" placeholder="Imię"
                                                type="text">
                                     </div>
                                     <div class="col-md-6">
@@ -949,7 +879,7 @@
                                                type="text">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea class="form-control" id="msg" rows="5"
+                                        <textarea class="form-control" id="msg" name="msg" rows="5"
                                                   placeholder="Treść wiadomości"></textarea>
                                         <button style="font-size: 14px;" type="submit"
                                                 class="btn btn-default btn-block btnxs btnbdr contact-1-button"
@@ -1013,5 +943,15 @@
 <script src="js/jquery.scrollTo.min.js"></script>
 <script src="js/jquery.localScroll.min.js"></script>
 <script src="js/main.js"></script>
+<script type="text/javascript">
+    window.cookieconsent_options = {
+        "message": "Nasza strona internetowa używa plików cookies (tzw. ciasteczka) w celach statystycznych oraz funkcjonalnych. Dzięki nim możemy indywidualnie dostosować stronę do twoich potrzeb. Każdy może zaakceptować pliki cookies albo ma możliwość wyłączenia ich w przeglądarce, dzięki czemu nie będą zbierane żadne informacje.",
+        "dismiss": "OK",
+        "learnMore": null,
+        "link": null,
+        "theme": "dark-bottom"
+    };
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
 </body>
 </html>

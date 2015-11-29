@@ -186,7 +186,7 @@ h3 {
 
 h4 {
     font-size: 1.6rem;
-    line-height: 2.2rem;
+    line-height: 3.6rem;
     margin-bottom: 1.1rem;
 }
 
@@ -277,7 +277,10 @@ section:nth-of-type(2n) {
 
 #faq {
     background: url(../images/background-faq.jpg) no-repeat center top fixed;
+    -moz-background-size: cover;
     background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
     min-height: 750px;
 }
 
@@ -334,7 +337,6 @@ section:nth-of-type(even) {
 .overlay {
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
-    min-height: 950px;
 }
 
 .overlay-fluid-block {
@@ -764,11 +766,19 @@ Home section
 }
 
 .home-msg {
-    background: url(../images/background-header.jpg) no-repeat center top fixed;
-    -moz-background-size: 2000px 1105px;
-    -webkit-background-size: 2000px 1105px;
-    -o-background-size: 2000px 1105px;
-    background-size: 2000px 1105px;
+    background: url(../images/background-header.jpg) no-repeat 70% top fixed;
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.experience {
+    margin-bottom: 200px;
+}
+
+.experience img {
+    width: 350px;
 }
 
 .home-intro-left {
@@ -782,18 +792,8 @@ Home section
     font-weight: 100;
     margin: 65px 0 15px;
     text-transform: none;
-    line-height: 90%;
+    line-height: 100%;
     letter-spacing: 4px;
-}
-
-@media (max-width: 770px) {
-    .home-intro-left .intro-wrap h1 {
-        font-size: 30px;
-    }
-
-    .navbar-brand .top-logo {
-
-    }
 }
 
 .home-intro-left .intro-wrap h4 {
@@ -1122,16 +1122,12 @@ Section Feature
 }
 
 #features {
+    background: url(../images/background-marble-2.jpg) no-repeat top fixed;
     -moz-background-size: cover;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-color: #fcfcfc;
-}
-
-.features {
-    margin: 0 auto;
-    width: 70%;
 }
 
 .feature-items:hover {
@@ -1619,8 +1615,8 @@ Describe section
     padding-top: 40px;
 }
 
-.describe {
-    background: #010101 url(../images/background-marble.jpg) no-repeat top fixed;
+#describe {
+    background: url(../images/background-marble.jpg) no-repeat top fixed;
     -moz-background-size: cover;
     background-size: cover;
     -webkit-background-size: cover;
@@ -2201,13 +2197,15 @@ CONTACT
     background-color: #fcfcfc;
 }
 
-.contact-form .error_message {
+.contact-form .error_message,
+.contact-form .success_message{
     font-size: 18px;
+    font-weight: 400;
     display: block;
     height: 50px;
     line-height: 40px;
     padding: 3px 10px 3px 35px;
-    color: #ff1e00;
+    color: #f21d00;
     border: 1px solid #dbdbdb;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -2215,6 +2213,10 @@ CONTACT
     width: 95%;
     text-align: center;
     margin: auto;
+}
+
+.contact-form .success_message {
+    color: #47d042;
 }
 
 .contact-form #contact #success_page {
@@ -2528,4 +2530,78 @@ footer
 
 .social-icon li a {
     color: #616161;
+}
+
+.video-outer {
+    max-width: 750px;
+    margin: 80px auto 0;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cc_container.cc_container {
+    font-family: Lato, sans-serif;
+}
+
+.cc_container.cc_container .cc_btn {
+    border: 1px solid #ed145b;
+    background: #ed145b;
+    color: #fff;
+}
+
+.cc_container.cc_container .cc_btn:hover {
+    border: 1px solid #ed145b;
+    background: #fff;
+    color: #ed145b;
+    font-weight: 400;
+}
+
+.table-image {
+    margin: 40px 0 -150px;
+}
+
+.styled-select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 50px;
+    border: solid 1px #f2f2f2;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.styled-select select {
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    border: 0;
+    height: 50px;
+    color: #666;
+    padding: 9px 25px 10px 15px;
+}
+.styled-select select::-ms-expand {
+    display: none;
+}
+
+.iOS #faq,
+.iOS .funfact,
+.iOS #describe,
+.iOS #features,
+.iOS .home-msg {
+    background-attachment: scroll;
 }
