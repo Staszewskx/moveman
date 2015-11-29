@@ -2197,13 +2197,15 @@ CONTACT
     background-color: #fcfcfc;
 }
 
-.contact-form .error_message {
+.contact-form .error_message,
+.contact-form .success_message{
     font-size: 18px;
+    font-weight: 400;
     display: block;
     height: 50px;
     line-height: 40px;
     padding: 3px 10px 3px 35px;
-    color: #ff1e00;
+    color: #f21d00;
     border: 1px solid #dbdbdb;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -2211,6 +2213,10 @@ CONTACT
     width: 95%;
     text-align: center;
     margin: auto;
+}
+
+.contact-form .success_message {
+    color: #47d042;
 }
 
 .contact-form #contact #success_page {

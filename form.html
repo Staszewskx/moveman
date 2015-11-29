@@ -44,7 +44,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="propClone"><a href="/#home">Start</a></li>
+                        <li class="propClone"><a href="/">Start</a></li>
                         <li class="propClone"><a href="/#features">Korzyści</a></li>
                         <li class="propClone"><a href="/#faq">Oferta</a></li>
                         <li class="propClone"><a href="/#describe">Usługa Online</a></li>
@@ -79,55 +79,55 @@
                 <div class="col-md-8 ">
                     <div data-wow-offset="10" data-wow-duration="1.55s" class="wow fadeIn animated contact-form">
                         <div id="message"></div>
-                        <form method="post" action="scripts/contact.php" name="contactform" id="contactform">
+                        <form method="post" action="scripts/contact-online.php" name="contactform" id="contactform">
                             <fieldset>
                                 <div class="form-group">
                                     <div class="col-sm-6">
-                                        <input class="form-control" name="imie" id="name" placeholder="Imię"
-                                               type="text">
+                                        <input class="form-control" name="name" id="name" placeholder="Imię"
+                                               type="text" required>
                                     </div>
                                     <div class="col-sm-6">
                                         <input class="form-control" name="email" id="email" placeholder="Email"
-                                               type="text">
+                                               type="text" required>
                                     </div>
                                     <div class="col-sm-4">
-                                        <input class="form-control" name="wiek" id="wiek" placeholder="Wiek"
-                                               type="text">
+                                        <input class="form-control" name="age" id="age" placeholder="Wiek"
+                                               type="text" required>
                                     </div>
                                     <div class="col-sm-4">
-                                        <input class="form-control" name="wzrost" id="wzrost" placeholder="Wzrost"
-                                               type="text">
+                                        <input class="form-control" name="height" id="height" placeholder="Wzrost"
+                                               type="text" required>
                                     </div>
                                     <div class="col-sm-4">
-                                        <input class="form-control" name="waga" id="waga" placeholder="Waga"
-                                               type="text">
+                                        <input class="form-control" name="weight" id="weight" placeholder="Waga"
+                                               type="text" required>
                                     </div>
                                     <div class="col-sm-12">
                                         <div class="styled-select">
-                                            <select name="salutation" id="salutation" required>
+                                            <select name="goal1" id="goal1" required>
                                                 <option value="0" selected="true" disabled="disabled">Cel główny</option>
-                                                <option value="odchudzanie">Chciał(a)bym się odchudzić</option>
-                                                <option value="sprawnosc">Chciał(a)bym podnieść moją sprawność fizyczną</option>
-                                                <option value="zawody">Chciał(a)bym przygotować się do zawodów biegowych, triathlonu, testów sprawnościowych</option>
-                                                <option value="zdrowie">Chciał(a)bym rozwiązać moje problemy zdrowotne związane z brakiem ruchu/nieodpowiednią dietą</option>
-                                                <option value="masa">Chciał(a)bym nabrać masy mięśniowej</option>
+                                                <option value="Odchudzanie">Chciał(a)bym się odchudzić</option>
+                                                <option value="Sprawność fizyczna">Chciał(a)bym podnieść moją sprawność fizyczną</option>
+                                                <option value="Zawody">Chciał(a)bym przygotować się do zawodów biegowych, triathlonu, testów sprawnościowych</option>
+                                                <option value="Zdrowie">Chciał(a)bym rozwiązać moje problemy zdrowotne związane z brakiem ruchu/nieodpowiednią dietą</option>
+                                                <option value="Masa mięśniowa">Chciał(a)bym nabrać masy mięśniowej</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-sm-12">
                                         <div class="styled-select">
-                                            <select name="salutation" id="salutation" required>
+                                            <select name="goal2" id="goal2" required>
                                                 <option value="0" selected="true" disabled="disabled">Cel dodatkowy</option>
-                                                <option value="odchudzanie">Chciał(a)bym się odchudzić</option>
-                                                <option value="sprawnosc">Chciał(a)bym podnieść moją sprawność fizyczną</option>
-                                                <option value="zawody">Chciał(a)bym przygotować się do zawodów biegowych, triathlonu, testów sprawnościowych</option>
-                                                <option value="zdrowie">Chciał(a)bym rozwiązać moje problemy zdrowotne związane z brakiem ruchu/nieodpowiednią dietą</option>
-                                                <option value="masa">Chciał(a)bym nabrać masy mięśniowej</option>
+                                                <option value="Odchudzanie">Chciał(a)bym się odchudzić</option>
+                                                <option value="Sprawność fizyczna">Chciał(a)bym podnieść moją sprawność fizyczną</option>
+                                                <option value="Zawody">Chciał(a)bym przygotować się do zawodów biegowych, triathlonu, testów sprawnościowych</option>
+                                                <option value="Zdrowie">Chciał(a)bym rozwiązać moje problemy zdrowotne związane z brakiem ruchu/nieodpowiednią dietą</option>
+                                                <option value="Masa mięśniowa">Chciał(a)bym nabrać masy mięśniowej</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-sm-12">
-                                        <textarea class="form-control" id="msg" rows="5"
+                                        <textarea class="form-control" id="msg" name="msg" rows="5"
                                                   placeholder="Inne uwagi"></textarea>
                                         <button style="font-size: 14px;" type="submit"
                                                 class="btn btn-default btn-block btnxs btnbdr contact-1-button"

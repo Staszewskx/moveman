@@ -48,10 +48,11 @@ jQuery(document).ready(function ($) {
 
     function toggleChevron(e) {
         $(e.target)
-                .prev('.panel-heading')
-                .find("i.indicator")
-                .toggleClass('glyphicon-minus glyphicon-plus');
+            .prev('.panel-heading')
+            .find("i.indicator")
+            .toggleClass('glyphicon-minus glyphicon-plus');
     }
+
     $('.panel-group').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
 
     /*---------------------------------------------*
@@ -79,12 +80,36 @@ jQuery(document).ready(function ($) {
      ---------------------------------------------*/
     $('.map-wrapper iframe').each(function (i, iframe) {
         $(iframe).parent().hover(// make inactive on hover
-                function () {
-                    $(iframe).css('pointer-events', 'none');
-                }).click(// activate on click
-                function () {
-                    $(iframe).css('pointer-events', 'auto');
-                }).trigger('mouseover'); // make it inactive by default as well
+            function () {
+                $(iframe).css('pointer-events', 'none');
+            }).click(// activate on click
+            function () {
+                $(iframe).css('pointer-events', 'auto');
+            }).trigger('mouseover'); // make it inactive by default as well
+    });
+
+    /*---------------------------------------------*
+     * Map
+     ---------------------------------------------*/
+
+    var $form = $('#contactform');
+    var $button = $('#contactform button');
+    var buttonText = $button.text();
+    var $message = $('#message');
+
+    $form.on('submit', function () {
+        $button.text($button.data('loading-text'));
+        $button.prop('disabled', true);
+        $.ajax({
+            url: "/scripts/contact.php",
+            method: "POST",
+            data: $form.serialize()
+        }).always(function (response) {
+            $message.html(response);
+            $button.text(buttonText);
+            $button.prop('disabled', false);
+        });
+        return false;
     });
 
 });

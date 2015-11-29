@@ -11,6 +11,11 @@ function isEmail($email) {
 $name     = $_POST['name'];
 $email    = $_POST['email'];
 $subject  = $_POST['subject'];
+$age      = $_POST['age'];
+$height   = $_POST['height'];
+$weight   = $_POST['weight'];
+$goal1    = $_POST['goal1'];
+$goal2    = $_POST['goal2'];
 $msg      = $_POST['msg'];
 
 if(trim($name) == '') {
@@ -22,20 +27,40 @@ if(trim($name) == '') {
 } else if(!isEmail($email)) {
 	echo '<div class="error_message">Podano niepoprawny adres e-mail.</div>';
 	exit();
+} else if(trim($age) == '') {
+ 	echo '<div class="error_message">Proszę podać wiek.</div>';
+ 	exit();
+} else if(trim(height) == '') {
+  	echo '<div class="error_message">Proszę podać wzrost.</div>';
+  	exit();
+} else if(trim(weight) == '') {
+  	echo '<div class="error_message">Proszę podać wagę.</div>';
+  	exit();
+} else if(trim(goal1) == '') {
+  	echo '<div class="error_message">Proszę podać cel główny.</div>';
+  	exit();
+} else if(trim(goal2) == '') {
+  	echo '<div class="error_message">Proszę podać cel dodatkowy.</div>';
+  	exit();
 } else if(trim($msg) == '') {
-	echo '<div class="error_message">Proszę wpisać wiadomość.</div>';
-	exit();
-} 
+   	echo '<div class="error_message">Proszę wpisać wiadomość.</div>';
+   	exit();
+}
 
 if(get_magic_quotes_gpc()) {
 	$msg = stripslashes($msg);
 }
 
-$e_subject = 'Skontaktował się z Tobą ' . $name . '.';
-$e_body = "Skontaktował się z Tobą $name. W swojej wiadomości napisał:\r\n";
+$e_subject = 'Usługa Online: ' . $name . '.';
+$e_body = "Skontaktował się z Tobą $name.\r\n";
+$e_age =  "Wiek: $age\r\n";
+$e_height =  "Wzrost: $height\r\n";
+$e_weight =  "Waga: $weight\r\n";
+$e_goal1 =  "Cel główny: $goal1\r\n";
+$e_goal2 =  "Cel dodatkowy: $goal2\r\n";
 $e_content = "\"" . trim($msg) . "\"\r\n";
 $e_reply = "$name zostawił swój adres e-mail: $email";
-$msg = $e_body . $e_content . $e_reply;
+$msg = $e_body . $e_age. $e_height. $e_weight. $e_goal1 . $e_goal2 . $e_content . $e_reply;
 
 $headers   = array();
 $headers[] = "MIME-Version: 1.0";
@@ -44,8 +69,9 @@ $headers[] = "Content-Transfer-Encoding: 8bit";
 $headers[] = "From: $email";
 $headers[] = "Reply-To: $email";
 
-if(mail($address, '=?utf-8?B?'.base64_encode($e_subject).'?=', $msg, implode("\r\n", $headers))){;
+if (mail($address, '=?utf-8?B?'.base64_encode($e_subject).'?=', $msg, implode("\r\n", $headers))) {
     echo "<div class='success_message'>Dzięki <strong>$name</strong>, Twoja wiadomość została wysłana.</div>";
+
 } else {
-	echo 'Błąd!';
+    echo 'Błąd!';
 }
