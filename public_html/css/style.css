@@ -654,21 +654,14 @@ MENU
     background: transparent;
 }
 
-
 .navbar-brand {
-    height: 100px;
-    padding: 20px 15px;
+    height: 70px;
+    padding: 10px 15px;
     margin-left: 0 !important;
 }
 
-
-#button-English {
-    border-left: ;
-}
-
 .navbar-brand img {
-    max-height: 65px;
-    padding-left:30px;
+    max-height: 55px;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -735,9 +728,6 @@ MENU
 .navbar.fixed-nav-dark .navbar-nav > li > a {
     color: #444;
     font-weight: 400;
-    font-size: 18px;
-    margin-right: 20px;
-    padding-top: 30px;
 }
 
 .fixed-nav-dark.navbar .navbar-nav > .active > a,
@@ -750,7 +740,6 @@ MENU
 
 .fixed-nav-dark .navbar-nav {
     padding-top: 10px;
-    padding-right: 50px;
 }
 
 .fixed-nav-dark .navbar-toggle {
@@ -1609,12 +1598,6 @@ Testimonial Caoursel
 Describe section
 */
 
-#komunikat-brak-miejsc {
-    color: #ed145b;
-    font-size: 25px;
-    font-weight: 700;
-}
-
 #h1-describe2 {
     color: #fff;
 }
@@ -1634,7 +1617,6 @@ Describe section
 }
 
 #h5-dla-firm {
-    padding-top: 40px;
     font-size: 30px;
 }
 

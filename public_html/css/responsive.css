@@ -1,0 +1,346 @@
+/* Large desktops and laptops */
+@media (min-width: 800px) {
+    /*Child menu*/
+    nav ul li .dropdown-menu {
+        display: block;
+        visibility: hidden;
+        background-color: #fff;
+        min-width: 10em;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-top: none;
+        position: absolute;
+        left: -0.5em;
+        padding: 0;
+        text-align: left;
+        list-style-type: none;
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: translate3d(0, -15px, 0);
+        transform: translate3d(0, -15px, 0);
+    }
+
+    nav ul li:hover .dropdown-menu {
+        visibility: visible;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+
+    nav ul li .dropdown-menu li {
+        margin: 0;
+    }
+
+    nav ul li .dropdown-menu li:hover a {
+        background-color: #fbfbfb;
+    }
+
+    nav ul li .dropdown-menu li a {
+        display: block;
+        line-height: 2.5em;
+        padding: 0.2em 1em;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    }
+
+    nav ul li .dropdown-menu li a:hover {
+        color: #1ac6ff;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+
+    .fluid-blocks-col {
+        padding: 70px 40px 80px 15px;
+    }
+
+    .client-wrapper2 img {
+        margin-bottom: 25px;
+    }
+
+    .client-wrapper .col-sm-3 {
+        border-right: none;
+    }
+
+    .footer-3 .additional-links,
+    .footer-2 .additional-links {
+        clear: both;
+        text-align: left;
+    }
+
+    .separator-faq {
+        margin: 0;
+    }
+
+    .panel-group {
+        margin-bottom: 6px;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 8px 2px;
+    }
+
+    .panel-default button {
+        padding: 6px 0;
+        font-size: 16px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    html {
+        font-size: 80%;
+    }
+
+    .intro-wrap {
+        padding-top: 0;
+    }
+
+    .intro-wrap .separator_wrap-left {
+        text-align: center;
+    }
+
+    .intro-wrap .separator_wrap-left::after,
+    .intro-wrap .separator_wrap-left::before {
+        background-color: #ff0053;
+        display: inline-block;
+        vertical-align: middle;
+        content: "";
+        width: 90px;
+        height: 1px;
+        margin-top: 2px;
+    }
+
+    .experience {
+        margin-bottom: 120px;
+    }
+
+    .home-intro-left .intro-wrap h1 {
+        margin-top: 0;
+        font-size: 35px;
+    }
+
+    .home-intro-left .intro-wrap h4 {
+        font-size: 25px;
+    }
+
+    .home-intro-left {
+        text-align: center;
+    }
+
+    .home-intro-2nd-half-contact,
+    .home-intro-2nd-half-try {
+        padding-top: 0;
+    }
+
+    .home-intro-2nd-half-video {
+        margin-top: 50px;
+    }
+
+    .home-subscribe .subscribe-input {
+        width: 60%;
+        height: 55px;
+
+    }
+
+    .home-subscribe button {
+        width: 30%;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    .home-button img {
+        margin-bottom: 20px;
+    }
+
+    .service {
+        margin-bottom: 30px;
+    }
+
+    .callnow h1 {
+        font-size: 2rem;
+    }
+
+    .call-number {
+        margin-top: 20px;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .team-member {
+        width: 45%;
+        float: left;
+        margin: 10px;
+    }
+
+    .contact-4 .col-sm-4, .contact-4 .col-sm-3 {
+        margin-top: 20px;
+    }
+
+    .contact-address {
+        border-top: 2px solid #ededed;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .footer-3.v-center.row > *,
+    .footer-3 .v-center.row > * {
+        display: block;
+        vertical-align: baseline;
+        margin-top: 30px;
+    }
+
+    .table-responsive {
+        border: 0;
+    }
+
+    .csstransforms .table {
+        border-collapse: collapse;
+        font-size: 12px;
+    }
+
+    .csstransforms .table td {
+
+    }
+
+    .csstransforms .table td:not(:first-child) {
+        width: 40px;
+    }
+
+    .csstransforms .table th {
+        height: 130px;
+        white-space: nowrap;
+    }
+
+    .csstransforms .table th > div {
+        -webkit-transform: translate(10px, 50px) rotate(-55deg);
+        -moz-transform: translate(10px, 50px) rotate(-55deg);
+        -ms-transform: translate(10px, 50px) rotate(-55deg);
+        transform: translate(10px, 50px) rotate(-55deg);
+        width: 40px;
+    }
+
+    .csstransforms .table th > div > span {
+        padding: 5px 10px;
+    }
+
+    .csstransforms .table td:not(:first-child) {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .csstransforms .table th:last-child,
+    .csstransforms .table td:last-child {
+        padding-right: 100px;
+    }
+
+    .csstransforms .table td:first-child {
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .csstransforms .table th:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .csstransforms .table td:nth-child(2) {
+        font-size: 12px;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    html {
+        font-size: 65%;
+    }
+
+    .btnxs {
+        margin-bottom: 20px;
+    }
+
+    .home-intro-right {
+        margin-top: 20px;
+    }
+
+    .home-intro-left .home-button {
+        padding-bottom: 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .home-intro-left .home-button a img {
+        padding-bottom: 20px;
+    }
+
+    .team-member {
+        width: 100%;
+    }
+
+    .client-wrapper2 div, .client-item .col-sm-3 {
+        width: 100%
+    }
+
+    .featured {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .feature-fluid-wrapper,
+    .feature-fluid-wrapper-color {
+        height: 250px;
+    }
+
+    .block-message {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 60.5%;
+    }
+}
+
+@media (pointer: coarse) {
+    .carousel-indicators li {
+        width: 14px;
+        height: 14px;
+        margin: 10px;
+    }
+
+    .carousel-indicators .active {
+        width: 18px;
+        height: 18px;
+        margin: 8px;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    .home-msg, #features, #describe, .funfact, #faq {
+        background-size: auto 100%;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .home-msg, #features, #describe, .funfact, #faq {
+        background-size: 100% auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 400px) {
+    .panel-default button {
+        padding: 6px 0;
+        font-size: 13px;
+    }
+}
