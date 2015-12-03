@@ -661,11 +661,6 @@ MENU
     margin-left: 0 !important;
 }
 
-
-#button-English {
-    border-left: ;
-}
-
 .navbar-brand img {
     max-height: 65px;
     padding-left:30px;
@@ -2661,4 +2656,9 @@ footer
 .iOS #features,
 .iOS .home-msg {
     background-attachment: scroll;
+}
+
+.menu-separator-left {
+    border-left: 1px solid #000;
+    padding-left: 30px;
 }
