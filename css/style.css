@@ -2584,9 +2584,15 @@ footer
     color: #616161;
 }
 
+
+#metamorfoza-youtube {
+    background: #fff;
+}
+
 .video-outer {
     max-width: 750px;
     margin: 80px auto 0;
+    margin-bottom: 100px;
 }
 
 .video-container {
@@ -2625,6 +2631,7 @@ footer
 
 .table-image {
     margin: 40px 0 -150px;
+    margin-bottom: 50px;
 }
 
 .styled-select {
