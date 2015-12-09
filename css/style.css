@@ -2586,7 +2586,11 @@ footer
 
 
 #metamorfoza-youtube {
-    background: #fff;
+    background: url(../images/background-marble.jpg) no-repeat top fixed;
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
 }
 
 .video-outer {
