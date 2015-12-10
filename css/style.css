@@ -263,6 +263,35 @@ Section
     padding-bottom: 100px;
 }
 
+#contact p {
+    color: #fff;
+}
+
+#contact h1 {
+    color: #fff;
+}
+
+#contact h4 {
+    color: #fff;
+}
+
+#contact h5 {
+    color: #fff;
+}
+
+#contact li {
+    color: #fff;
+}
+
+#contact {
+    background: url(../images/background-faq.jpg) no-repeat center top fixed;
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    min-height: 750px;
+}
+
 .sections {
     padding-top: 100px;
     padding-bottom: 120px;
