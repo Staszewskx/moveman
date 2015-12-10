@@ -654,14 +654,16 @@ MENU
     background: transparent;
 }
 
+
 .navbar-brand {
-    height: 70px;
-    padding: 10px 15px;
+    height: 100px;
+    padding: 20px 15px;
     margin-left: 0 !important;
 }
 
 .navbar-brand img {
-    max-height: 55px;
+    max-height: 65px;
+    padding-left:30px;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -728,6 +730,9 @@ MENU
 .navbar.fixed-nav-dark .navbar-nav > li > a {
     color: #444;
     font-weight: 400;
+    font-size: 18px;
+    margin-right: 20px;
+    padding-top: 30px;
 }
 
 .fixed-nav-dark.navbar .navbar-nav > .active > a,
@@ -740,6 +745,7 @@ MENU
 
 .fixed-nav-dark .navbar-nav {
     padding-top: 10px;
+    padding-right: 50px;
 }
 
 .fixed-nav-dark .navbar-toggle {
@@ -1598,6 +1604,35 @@ Testimonial Caoursel
 Describe section
 */
 
+#komunikat-brak-miejsc {
+    color: #ed145b;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#h1-describe2 {
+    color: #fff;
+}
+
+#h5-describe2 {
+    color: #fff;
+}
+
+#h2-dla-firm-1 {
+    font-size: 80px;
+    padding-top: 90px;
+}
+
+#h2-dla-firm-2 {
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+#h5-dla-firm {
+    padding-top: 40px;
+    font-size: 30px;
+}
+
 #Emil-foto {
     padding-top: 50px;
 }
@@ -1622,6 +1657,23 @@ Describe section
     -webkit-background-size: cover;
     -o-background-size: cover;
     width: 100%;
+}
+
+#describe2 {
+    background: url(../images/background-faq.jpg) no-repeat top fixed;
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+}
+
+#describe34 {
+    background: #f4f4f4;
+}
+
+#describe4 {
+    background: #f5f5f5;
 }
 
 #o-mnie {
@@ -1984,7 +2036,7 @@ FUNFACT
 ======================*/
 
 .funfact {
-    background: url(../images/background-numbers.jpg) no-repeat center top fixed;
+    background: url(../images/background-faq.jpg) no-repeat center top fixed;
     /*background-size*/
     -moz-background-size: cover;
     background-size: cover;
@@ -2532,9 +2584,19 @@ footer
     color: #616161;
 }
 
+
+#metamorfoza-youtube {
+    background: url(../images/background-marble.jpg) no-repeat top fixed;
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
 .video-outer {
     max-width: 750px;
     margin: 80px auto 0;
+    margin-bottom: 100px;
 }
 
 .video-container {
@@ -2573,6 +2635,7 @@ footer
 
 .table-image {
     margin: 40px 0 -150px;
+    margin-bottom: 50px;
 }
 
 .styled-select {
@@ -2604,4 +2667,9 @@ footer
 .iOS #features,
 .iOS .home-msg {
     background-attachment: scroll;
+}
+
+.menu-separator-left {
+    border-left: 1px solid #000;
+    padding-left: 30px;
 }
