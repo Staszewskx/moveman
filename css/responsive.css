@@ -381,3 +381,13 @@
         font-size: 13px;
     }
 }
+
+@media (min-width: 768px) and (max-height: 768px) {
+    .intro-wrap {
+        padding-top: 0;
+    }
+
+    .home-intro-left .intro-wrap h1 {
+        margin-top: 0;
+    }
+}
