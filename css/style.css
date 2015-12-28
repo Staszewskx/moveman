@@ -1431,13 +1431,19 @@ clients
 Testimonial Caoursel
 */
 
+#opinie-title {
+    color: #fff;
+}
+
 #p-testimonial {
     font-size: 25px;
+    color: #fff;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
 
-.testimonial {
+#testimonial {
+    background: url(../images/background-faq.jpg) no-repeat top fixed;
     -moz-background-size: cover;
     background-size: cover;
     -webkit-background-size: cover;
@@ -1457,7 +1463,7 @@ Testimonial Caoursel
 
 .testimonialslide .carousel-item p {
     font-size: 2.5rem;
-    color: #eec400;
+    color: #fff;
     font-style: italic;
     line-height: 2.8rem;
     margin-bottom: 3rem;
@@ -1489,13 +1495,13 @@ Testimonial Caoursel
 .testimonialslide .testimonialitem p {
     font-size: 25px;
     font-weight: 300;
-    color: #444;
+    color: #fff;
 }
 
 .testimonialslide .testimonialitem h3 span {
     font-size: 1rem;
     font-weight: 700;
-    color: #444;
+    color: #fff;
 }
 
 .testimonialslide .carousel-indicators .active {
